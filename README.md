@@ -36,10 +36,11 @@ No accounts, no database, no API keys. One optional environment variable.
 git clone https://github.com/haakram/WHW.git
 cd WHW
 pnpm install
+pnpm data:borders # one-time: fetch + simplify the 13 historical border snapshots (~1 min)
 pnpm dev          # http://localhost:3000
 ```
 
-Requirements: Node.js 20+ (24 recommended) and pnpm 10. The generated data (countries, border snapshots, globe textures) is committed, so the app works offline apart from the live Wikipedia panel.
+Requirements: Node.js 20+ (24 recommended) and pnpm 10. Countries and textures are committed; the historical border snapshots (a GPL-3.0 dataset) are downloaded and simplified by `pnpm data:borders`, which `pnpm build` runs automatically and `pnpm dev` needs once:
 
 ```bash
 pnpm data:all     # regenerate countries.json, the border snapshots and textures (network needed)
@@ -142,7 +143,7 @@ src/lib/data/             Zod schemas, loaders, generated-data paths
 src/lib/store/            one reducer + context: year, playing, speed, follow, selection, tour
 src/lib/security/         Content-Security-Policy and security headers
 src/data/                 curated events, tours, eras (JSON)
-public/data/              generated: countries.json, border snapshots (see LICENSE.md there)
+public/data/              generated: countries.json (committed), border snapshots (fetched at build time)
 scripts/                  data generators and the validator
 tests/unit/               vitest
 ```
@@ -160,7 +161,7 @@ Rendering is entirely client-side; the only server code is the Wikipedia proxy. 
 
 | Data | Source | License |
 |---|---|---|
-| Historical borders (`public/data/borders/`) | [aourednik/historical-basemaps](https://github.com/aourednik/historical-basemaps), simplified | **GPL-3.0** (data files only, see [notice](public/data/borders/LICENSE.md)) |
+| Historical borders (`public/data/borders/`, fetched at build time, not redistributed here) | [aourednik/historical-basemaps](https://github.com/aourednik/historical-basemaps), simplified by `scripts/fetch-borders.ts` | **GPL-3.0** (upstream data; the generated files stay out of this repo) |
 | Countries (`public/data/countries.json`) | [Wikidata](https://www.wikidata.org) | CC0 |
 | Globe textures (`public/textures/`) | [three-globe](https://github.com/vasturiano/three-globe) examples | MIT |
 | Wikipedia summaries and images | fetched live | CC BY-SA 4.0 (text); images carry their own licenses, credited in the panel |

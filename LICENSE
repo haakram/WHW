@@ -22,5 +22,7 @@ SOFTWARE.
 
 ---
 
-Data files in public/data/borders/ are NOT covered by this license: they are
-derived from "historical-basemaps" (GPL-3.0) — see public/data/borders/LICENSE.md.
+Historical border data is NOT part of this repository: `pnpm data:borders`
+downloads it at build time from "historical-basemaps" by Andrei Ourednik
+(https://github.com/aourednik/historical-basemaps), which is licensed GPL-3.0.
+Those generated files keep that license and are never redistributed here.
