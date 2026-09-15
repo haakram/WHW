@@ -1,1 +1,236 @@
-[]
+[
+  {
+    "id": "world-war-ii",
+    "title": "World War II",
+    "subtitle": "Six years that remade the world, from a Polish border to a Japanese city",
+    "from": 1939,
+    "to": 1945,
+    "stops": [
+      {
+        "eventId": "invasion-of-poland",
+        "narration": "The war begins here. German troops cross the Polish frontier on 1 September 1939, and Britain and France declare war two days later.",
+        "altitude": 1.1
+      },
+      {
+        "eventId": "battle-of-britain",
+        "narration": "With France fallen, the fighting moves to the sky over southern England, where the RAF denies the Luftwaffe the air superiority an invasion would need.",
+        "altitude": 0.9
+      },
+      {
+        "eventId": "operation-barbarossa",
+        "narration": "In June 1941 Hitler turns east and invades his own ally, opening the vast front where most of the war's dead would fall.",
+        "altitude": 1.5
+      },
+      {
+        "eventId": "attack-on-pearl-harbor",
+        "narration": "Six months later Japanese carriers strike the Pacific Fleet at anchor, and a European war becomes a global one.",
+        "altitude": 1.3
+      },
+      {
+        "eventId": "d-day-normandy-landings",
+        "narration": "On 6 June 1944 the Allies come back to France across five Normandy beaches, opening the second front Stalin had demanded for years.",
+        "altitude": 0.8
+      },
+      {
+        "eventId": "atomic-bombing-of-hiroshima",
+        "narration": "The war ends in August 1945 with two atomic bombs, and the world enters the nuclear age it still lives in.",
+        "altitude": 0.9
+      }
+    ]
+  },
+  {
+    "id": "world-war-i",
+    "title": "World War I",
+    "subtitle": "From two shots in Sarajevo to the silence of the eleventh hour",
+    "from": 1914,
+    "to": 1918,
+    "stops": [
+      {
+        "eventId": "sarajevo-assassination",
+        "narration": "A teenage nationalist kills an archduke on a Sarajevo street corner, and within five weeks the alliance system has pulled Europe into war.",
+        "altitude": 0.8
+      },
+      {
+        "eventId": "first-battle-of-the-marne",
+        "narration": "East of Paris the French and British stop the German advance, and the war of movement freezes into a line of trenches from the sea to Switzerland.",
+        "altitude": 0.9
+      },
+      {
+        "eventId": "gallipoli-campaign",
+        "narration": "The Allies try to break the deadlock by attacking the Ottomans at the Dardanelles, and spend eight months on the cliffs before giving up.",
+        "altitude": 1.0
+      },
+      {
+        "eventId": "battle-of-verdun",
+        "narration": "At Verdun the strategy becomes attrition for its own sake, with some 700,000 men killed or wounded over ten months of shelling.",
+        "altitude": 0.8
+      },
+      {
+        "eventId": "us-entry-world-war-i",
+        "narration": "American entry in April 1917 brings the manpower and industry that will decide the Western Front the following year.",
+        "altitude": 1.4
+      },
+      {
+        "eventId": "armistice-1918",
+        "narration": "In a railway carriage at Compiègne the guns are stopped at eleven o'clock on 11 November 1918, leaving ten million soldiers dead.",
+        "altitude": 0.9
+      }
+    ]
+  },
+  {
+    "id": "rise-and-fall-of-rome",
+    "title": "Rise and fall of Rome",
+    "subtitle": "Twelve centuries from a village on the Tiber to an empty throne at Ravenna",
+    "from": -753,
+    "to": 476,
+    "stops": [
+      {
+        "eventId": "founding-of-rome",
+        "narration": "Tradition puts the founding of the city at 753 BC, a cluster of settlements on hills above a ford in the Tiber.",
+        "altitude": 0.9
+      },
+      {
+        "eventId": "punic-wars-begin",
+        "narration": "Rome's wars with Carthage, beginning in 264 BC, turn an Italian republic into the master of the western Mediterranean.",
+        "altitude": 1.3
+      },
+      {
+        "eventId": "caesar-crosses-rubicon",
+        "narration": "In 49 BC Caesar leads a legion across a small river into Italy, and the Republic never recovers.",
+        "altitude": 1.0
+      },
+      {
+        "eventId": "augustus-principate",
+        "narration": "Augustus keeps the republican forms and takes the power, beginning two centuries of relative peace across the Mediterranean.",
+        "altitude": 1.0
+      },
+      {
+        "eventId": "constantinople-founded",
+        "narration": "Constantine moves the centre of gravity east in 330, founding a Christian capital on the Bosphorus that will outlive Rome by a thousand years.",
+        "altitude": 1.1
+      },
+      {
+        "eventId": "fall-of-western-rome",
+        "narration": "In 476 a Germanic commander deposes the last western emperor at Ravenna and sends the imperial insignia to Constantinople.",
+        "altitude": 1.2
+      }
+    ]
+  },
+  {
+    "id": "the-mongol-empire",
+    "title": "The Mongol Empire",
+    "subtitle": "From a council on the Onon river to the largest land empire ever assembled",
+    "from": 1206,
+    "to": 1368,
+    "stops": [
+      {
+        "eventId": "genghis-khan-proclaimed",
+        "narration": "In 1206 the steppe tribes acclaim Temüjin as Genghis Khan, uniting them under one law and one decimal army.",
+        "altitude": 1.4
+      },
+      {
+        "eventId": "fall-of-zhongdu",
+        "narration": "The sack of the Jin capital in 1215 proves that the Mongols can take walled cities, not merely raid the countryside.",
+        "altitude": 1.2
+      },
+      {
+        "eventId": "siege-of-baghdad-1258",
+        "narration": "Hulagu's army destroys Baghdad in 1258 and kills the last Abbasid caliph, ending five centuries of the caliphate.",
+        "altitude": 1.1
+      },
+      {
+        "eventId": "battle-of-ain-jalut",
+        "narration": "Two years later the Mamluks of Egypt stop the Mongols in Galilee, the first real check on their westward advance.",
+        "altitude": 1.0
+      },
+      {
+        "eventId": "kublai-founds-yuan",
+        "narration": "Kublai declares the Yuan dynasty in 1271 and rules China from Dadu, ruling as emperor rather than as a conquering khan.",
+        "altitude": 1.3
+      },
+      {
+        "eventId": "fall-of-the-yuan",
+        "narration": "In 1368 a peasant rebel takes Dadu and founds the Ming, and the Mongol court retreats to the steppe it came from.",
+        "altitude": 1.3
+      }
+    ]
+  },
+  {
+    "id": "age-of-exploration",
+    "title": "Age of Exploration",
+    "subtitle": "A century and a half in which the sea routes of the world were joined",
+    "from": 1405,
+    "to": 1770,
+    "stops": [
+      {
+        "eventId": "zheng-he-voyages",
+        "narration": "Ming China sends the largest fleets in the world across the Indian Ocean from 1405, then abandons the voyages entirely.",
+        "altitude": 1.5
+      },
+      {
+        "eventId": "dias-rounds-the-cape",
+        "narration": "In 1488 Bartolomeu Dias is blown past the tip of Africa and shows Portugal that the Atlantic and Indian Oceans join.",
+        "altitude": 1.2
+      },
+      {
+        "eventId": "columbus-1492",
+        "narration": "Sailing west for Castile, Columbus reaches the Bahamas in October 1492 and permanently links two hemispheres.",
+        "altitude": 1.3
+      },
+      {
+        "eventId": "vasco-da-gama-india",
+        "narration": "Six years later Vasco da Gama anchors at Calicut, and Portugal begins seizing the spice trade by force.",
+        "altitude": 1.3
+      },
+      {
+        "eventId": "magellan-elcano-circumnavigation",
+        "narration": "The Magellan expedition sails from Spain in 1519; three years later eighteen survivors return, having gone all the way round.",
+        "altitude": 1.6
+      },
+      {
+        "eventId": "cook-reaches-australia",
+        "narration": "Cook charts Australia's east coast in 1770, filling in one of the last great blanks on the European map of the world.",
+        "altitude": 1.4
+      }
+    ]
+  },
+  {
+    "id": "cold-war-and-decolonisation",
+    "title": "Cold War and decolonisation",
+    "subtitle": "Two superpowers, dozens of new flags, and the world of 1991",
+    "from": 1947,
+    "to": 1991,
+    "stops": [
+      {
+        "eventId": "partition-of-india",
+        "narration": "In August 1947 the largest colony of all becomes two states, and ten to twenty million people cross a line drawn weeks earlier.",
+        "altitude": 1.3
+      },
+      {
+        "eventId": "berlin-blockade",
+        "narration": "The Soviets cut off West Berlin in 1948 and the West flies in coal and food for eleven months, hardening the division of Europe.",
+        "altitude": 0.9
+      },
+      {
+        "eventId": "ghana-independence",
+        "narration": "Ghana's independence in 1957 under Nkrumah opens the wave that frees most of Africa within a decade.",
+        "altitude": 1.2
+      },
+      {
+        "eventId": "cuban-missile-crisis",
+        "narration": "Thirteen days in October 1962 bring the superpowers closer to nuclear war than at any other moment.",
+        "altitude": 1.1
+      },
+      {
+        "eventId": "fall-of-the-berlin-wall",
+        "narration": "On the evening of 9 November 1989 the guards open the gates, and the wall that defined the Cold War comes down.",
+        "altitude": 0.8
+      },
+      {
+        "eventId": "dissolution-of-the-ussr",
+        "narration": "On 26 December 1991 the Soviet Union dissolves into fifteen states, and the contest that shaped half a century is over.",
+        "altitude": 1.5
+      }
+    ]
+  }
+]
