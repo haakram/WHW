@@ -1,1 +1,2526 @@
-[{"id": "aboriginal-arrival-australia", "title": "The peopling of Australia", "year": -3000, "lat": -12.42, "lng": 130.89, "countryIso": "AU", "category": "culture", "importance": 3, "summary": "Aboriginal Australians had by this date already lived on the continent for tens of thousands of years, with sites such as Madjedbebe in Arnhem Land dated to about 65,000 years ago. Their songlines, fire management and rock art form the longest continuous cultural tradition known.", "wikipediaTitle": "Aboriginal Australians", "sources": ["https://en.wikipedia.org/wiki/Aboriginal_Australians"]}, {"id": "unification-of-egypt", "title": "Unification of Upper and Lower Egypt", "year": -3000, "lat": 26.19, "lng": 31.89, "countryIso": "EG", "category": "politics", "importance": 5, "summary": "Around 3000 BC a ruler remembered as Narmer or Menes joined the Nile valley and delta into a single kingdom ruled from Thinis and later Memphis. The event opens Egypt's dynastic record and gives us the earliest surviving royal iconography, the Narmer Palette.", "wikipediaTitle": "Early Dynastic Period (Egypt)", "sources": ["https://en.wikipedia.org/wiki/Early_Dynastic_Period_(Egypt)"]}, {"id": "uruk-cuneiform", "title": "Cuneiform writing at Uruk", "year": -3000, "lat": 31.32, "lng": 45.64, "countryIso": "IQ", "category": "culture", "importance": 5, "summary": "Scribes in the Sumerian city of Uruk pressed wedge-shaped marks into clay to track grain, livestock and labour, and by around 3000 BC those accounts had grown into the first writing system. Cuneiform served Sumerian, Akkadian, Hittite and Old Persian for three thousand years.", "wikipediaTitle": "Cuneiform", "sources": ["https://en.wikipedia.org/wiki/Cuneiform"]}, {"id": "great-pyramid-giza", "title": "The Great Pyramid of Giza", "year": -2560, "lat": 29.98, "lng": 31.13, "countryIso": "EG", "category": "culture", "importance": 5, "summary": "Pharaoh Khufu's tomb rose on the Giza plateau around 2560 BC, built from roughly 2.3 million limestone blocks by a rotating state workforce. It stood as the tallest structure made by humans for some 3,800 years and is the only one of the seven ancient wonders still standing.", "wikipediaTitle": "Great Pyramid of Giza", "sources": ["https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza"]}, {"id": "indus-valley-mohenjo-daro", "title": "Mature Indus Valley cities flourish", "year": -2500, "lat": 27.33, "lng": 68.14, "countryIso": "PK", "category": "culture", "importance": 4, "summary": "From about 2600 BC the Harappan civilisation built brick cities such as Mohenjo-daro and Harappa across the Indus basin, with gridded streets, covered drains and standardised weights. Its script has never been deciphered, and the cities were largely abandoned after 1900 BC.", "wikipediaTitle": "Indus Valley Civilisation", "sources": ["https://en.wikipedia.org/wiki/Indus_Valley_Civilisation"]}]
+[
+  {
+    "id": "unification-of-egypt",
+    "title": "Unification of Upper and Lower Egypt",
+    "year": -3000,
+    "lat": 26.19,
+    "lng": 31.89,
+    "countryIso": "EG",
+    "category": "politics",
+    "importance": 5,
+    "summary": "Around 3000 BC a ruler remembered as Narmer or Menes joined the Nile valley and delta into a single kingdom ruled from Thinis and later Memphis. The event opens Egypt's dynastic record and gives us the earliest surviving royal iconography, the Narmer Palette.",
+    "wikipediaTitle": "Early Dynastic Period (Egypt)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Early_Dynastic_Period_(Egypt)"
+    ]
+  },
+  {
+    "id": "uruk-cuneiform",
+    "title": "Cuneiform writing at Uruk",
+    "year": -3000,
+    "lat": 31.32,
+    "lng": 45.64,
+    "countryIso": "IQ",
+    "category": "culture",
+    "importance": 5,
+    "summary": "Scribes in the Sumerian city of Uruk pressed wedge-shaped marks into clay to track grain, livestock and labour, and by around 3000 BC those accounts had grown into the first writing system. Cuneiform served Sumerian, Akkadian, Hittite and Old Persian for three thousand years.",
+    "wikipediaTitle": "Cuneiform",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Cuneiform"
+    ]
+  },
+  {
+    "id": "great-pyramid-giza",
+    "title": "The Great Pyramid of Giza",
+    "year": -2560,
+    "lat": 29.98,
+    "lng": 31.13,
+    "countryIso": "EG",
+    "category": "culture",
+    "importance": 5,
+    "summary": "Pharaoh Khufu's tomb rose on the Giza plateau around 2560 BC, built from roughly 2.3 million limestone blocks by a rotating state workforce. It stood as the tallest structure made by humans for some 3,800 years and is the only one of the seven ancient wonders still standing.",
+    "wikipediaTitle": "Great Pyramid of Giza",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza"
+    ]
+  },
+  {
+    "id": "indus-valley-mohenjo-daro",
+    "title": "Mohenjo-daro and the Indus cities",
+    "year": -2500,
+    "lat": 27.33,
+    "lng": 68.14,
+    "countryIso": "PK",
+    "category": "culture",
+    "importance": 4,
+    "summary": "By 2500 BC the Indus Valley civilisation had built Mohenjo-daro and Harappa with gridded streets, brick drains and standardised weights across a territory larger than Egypt and Mesopotamia combined. Its script has never been deciphered, and the cities were largely abandoned by about 1900 BC.",
+    "wikipediaTitle": "Mohenjo-daro",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mohenjo-daro"
+    ]
+  },
+  {
+    "id": "code-of-hammurabi",
+    "title": "The Code of Hammurabi",
+    "year": -1754,
+    "lat": 32.54,
+    "lng": 44.42,
+    "countryIso": "IQ",
+    "category": "politics",
+    "importance": 5,
+    "summary": "Hammurabi of Babylon had some 282 legal rulings carved on a basalt stele, setting prices, wages, family law and famously proportional retribution. It is the fullest law code to survive from the ancient Near East and shaped later Mesopotamian legal thinking.",
+    "wikipediaTitle": "Code of Hammurabi",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Code_of_Hammurabi"
+    ]
+  },
+  {
+    "id": "bronze-age-collapse",
+    "title": "The Late Bronze Age collapse",
+    "year": -1177,
+    "lat": 35,
+    "lng": 33,
+    "countryIso": "CY",
+    "category": "disaster",
+    "importance": 4,
+    "summary": "Within a few decades around 1200–1150 BC the Mycenaean palaces, the Hittite Empire and the great Levantine ports were destroyed or abandoned, and Egypt fought off the Sea Peoples. Literacy, long-distance trade and centralised states vanished across the eastern Mediterranean for centuries.",
+    "wikipediaTitle": "Late Bronze Age collapse",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Late_Bronze_Age_collapse"
+    ]
+  },
+  {
+    "id": "kingdom-of-kush",
+    "title": "The Kingdom of Kush at Kerma and Napata",
+    "year": -1070,
+    "lat": 18.53,
+    "lng": 31.83,
+    "countryIso": "SD",
+    "category": "politics",
+    "importance": 3,
+    "summary": "As Egypt's New Kingdom weakened after 1070 BC, the Nubian kingdom of Kush reasserted itself from Napata on the middle Nile. Its kings later conquered Egypt outright as the Twenty-fifth Dynasty, and the state endured at Meroë into the fourth century AD.",
+    "wikipediaTitle": "Kingdom of Kush",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kingdom_of_Kush"
+    ]
+  },
+  {
+    "id": "founding-of-rome",
+    "title": "The traditional founding of Rome",
+    "year": -753,
+    "lat": 41.89,
+    "lng": 12.48,
+    "countryIso": "IT",
+    "category": "politics",
+    "importance": 5,
+    "summary": "Roman tradition dated the founding of the city by Romulus to 753 BC on the hills above the Tiber. Archaeology confirms continuous settlement on the Palatine from the eighth century, the seed of a state that would govern the Mediterranean world.",
+    "wikipediaTitle": "Founding of Rome",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Founding_of_Rome"
+    ]
+  },
+  {
+    "id": "buddha-enlightenment",
+    "title": "The Buddha's enlightenment at Bodh Gaya",
+    "year": -528,
+    "lat": 24.7,
+    "lng": 84.99,
+    "countryIso": "IN",
+    "category": "religion",
+    "importance": 4,
+    "summary": "Siddhartha Gautama, a prince of the Shakya clan, is said to have attained awakening beneath a fig tree at Bodh Gaya and then taught the four noble truths at Sarnath. Buddhism spread from the Ganges plain to Sri Lanka, Central Asia, China and beyond.",
+    "wikipediaTitle": "Gautama Buddha",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Gautama_Buddha"
+    ]
+  },
+  {
+    "id": "athenian-democracy",
+    "title": "The reforms of Cleisthenes at Athens",
+    "year": -508,
+    "lat": 37.98,
+    "lng": 23.73,
+    "countryIso": "GR",
+    "category": "politics",
+    "importance": 4,
+    "summary": "In 508 BC Cleisthenes reorganised Athenian citizens into ten territorial tribes and gave the assembly and a council of 500 real power over the city. The system that resulted, direct rule by the adult male citizen body, is the ancestor of every later democracy.",
+    "wikipediaTitle": "Athenian democracy",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Athenian_democracy"
+    ]
+  },
+  {
+    "id": "confucius-teaching",
+    "title": "Confucius teaches in Lu",
+    "year": -500,
+    "lat": 35.6,
+    "lng": 116.99,
+    "countryIso": "CN",
+    "category": "culture",
+    "importance": 4,
+    "summary": "Kong Qiu, known in the West as Confucius, taught ritual propriety, filial duty and government by moral example in the state of Lu during China's Spring and Autumn period. His disciples' record of his sayings, the Analects, became the backbone of Chinese statecraft and education.",
+    "wikipediaTitle": "Confucius",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Confucius"
+    ]
+  },
+  {
+    "id": "alexander-gaugamela",
+    "title": "Alexander defeats Darius at Gaugamela",
+    "year": -331,
+    "lat": 36.36,
+    "lng": 43.25,
+    "countryIso": "IQ",
+    "category": "war",
+    "importance": 5,
+    "summary": "Alexander III of Macedon broke the main Persian army under Darius III near modern Mosul in October 331 BC, opening Babylon, Susa and Persepolis to him. Within eight years his campaigns carried Greek language and rule from Egypt to the Punjab and began the Hellenistic age.",
+    "wikipediaTitle": "Battle of Gaugamela",
+    "belligerents": [
+      {
+        "name": "Macedon (Alexander III)",
+        "lat": 40.75,
+        "lng": 22.52,
+        "side": "a"
+      },
+      {
+        "name": "Achaemenid Persia (Darius III)",
+        "lat": 32.54,
+        "lng": 44.42,
+        "side": "b"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Battle_of_Gaugamela"
+    ]
+  },
+  {
+    "id": "punic-wars-begin",
+    "title": "The Punic Wars begin",
+    "year": -264,
+    "endYear": -146,
+    "lat": 37.5,
+    "lng": 15.09,
+    "countryIso": "IT",
+    "category": "war",
+    "importance": 5,
+    "summary": "Rome and Carthage fought three wars between 264 and 146 BC for control of Sicily and then the whole western Mediterranean, including Hannibal's march over the Alps. Rome's final destruction of Carthage in 146 BC left it without a rival at sea.",
+    "wikipediaTitle": "Punic Wars",
+    "belligerents": [
+      {
+        "name": "Roman Republic",
+        "lat": 41.89,
+        "lng": 12.48,
+        "side": "a"
+      },
+      {
+        "name": "Carthage",
+        "lat": 36.85,
+        "lng": 10.32,
+        "side": "b"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Punic_Wars"
+    ]
+  },
+  {
+    "id": "qin-unification",
+    "title": "Qin Shi Huang unifies China",
+    "year": -221,
+    "lat": 34.34,
+    "lng": 108.94,
+    "countryIso": "CN",
+    "category": "politics",
+    "importance": 5,
+    "summary": "King Zheng of Qin defeated the last of the warring states in 221 BC and declared himself First Emperor, standardising script, coinage, axle widths and law across the realm. His tomb near Xi'an is guarded by the terracotta army, and his short dynasty set the template for two millennia of imperial China.",
+    "wikipediaTitle": "Qin Shi Huang",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Qin_Shi_Huang"
+    ]
+  },
+  {
+    "id": "teotihuacan-rises",
+    "title": "Teotihuacan becomes a great city",
+    "year": -100,
+    "lat": 19.69,
+    "lng": -98.84,
+    "countryIso": "MX",
+    "category": "culture",
+    "importance": 3,
+    "summary": "In the Valley of Mexico, Teotihuacan grew from around 100 BC into a planned city of perhaps 100,000 people, dominated by the Pyramids of the Sun and Moon along the Avenue of the Dead. Its influence reached Maya courts far to the south before the centre burned in the sixth century AD.",
+    "wikipediaTitle": "Teotihuacan",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Teotihuacan"
+    ]
+  },
+  {
+    "id": "caesar-crosses-rubicon",
+    "title": "Caesar crosses the Rubicon",
+    "year": -49,
+    "lat": 44.09,
+    "lng": 12.4,
+    "countryIso": "IT",
+    "category": "war",
+    "importance": 5,
+    "summary": "In January 49 BC Julius Caesar led the Thirteenth Legion across the Rubicon into Italy, an act of open rebellion against the Senate. The civil war that followed destroyed the Roman Republic and made Caesar dictator until his assassination on the Ides of March 44 BC.",
+    "wikipediaTitle": "Caesar's Civil War",
+    "belligerents": [
+      {
+        "name": "Caesar's legions",
+        "lat": 44.09,
+        "lng": 12.4,
+        "side": "a"
+      },
+      {
+        "name": "Senate and Pompey",
+        "lat": 41.89,
+        "lng": 12.48,
+        "side": "b"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Caesar%27s_Civil_War"
+    ]
+  },
+  {
+    "id": "augustus-principate",
+    "title": "Augustus founds the Roman Empire",
+    "year": -27,
+    "lat": 41.89,
+    "lng": 12.48,
+    "countryIso": "IT",
+    "category": "politics",
+    "importance": 5,
+    "summary": "After defeating Antony and Cleopatra at Actium, Octavian accepted the name Augustus in 27 BC and ruled as first citizen while keeping republican forms. His settlement began two centuries of relative peace, the Pax Romana, across the Mediterranean world.",
+    "wikipediaTitle": "Augustus",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Augustus"
+    ]
+  },
+  {
+    "id": "crucifixion-of-jesus",
+    "title": "The crucifixion of Jesus and the rise of Christianity",
+    "year": 33,
+    "lat": 31.78,
+    "lng": 35.23,
+    "countryIso": "IL",
+    "category": "religion",
+    "importance": 5,
+    "summary": "Jesus of Nazareth was executed in Roman Judaea under the prefect Pontius Pilate around AD 30–33. His followers, and above all the missions of Paul of Tarsus, carried the new faith across the empire until it became Rome's state religion in the fourth century.",
+    "wikipediaTitle": "Crucifixion of Jesus",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Crucifixion_of_Jesus"
+    ]
+  },
+  {
+    "id": "constantinople-founded",
+    "title": "Constantine founds Constantinople",
+    "year": 330,
+    "lat": 41.01,
+    "lng": 28.98,
+    "countryIso": "TR",
+    "category": "politics",
+    "importance": 5,
+    "summary": "Constantine the Great dedicated the rebuilt city of Byzantium as his new capital in AD 330 and legalised Christianity across the empire. Constantinople guarded the Bosphorus and outlasted Rome itself as the seat of the Eastern Roman state for eleven centuries.",
+    "wikipediaTitle": "Constantinople",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Constantinople"
+    ]
+  },
+  {
+    "id": "fall-of-western-rome",
+    "title": "The fall of the Western Roman Empire",
+    "year": 476,
+    "lat": 44.42,
+    "lng": 12.2,
+    "countryIso": "IT",
+    "category": "politics",
+    "importance": 5,
+    "summary": "In 476 the Germanic commander Odoacer deposed the boy emperor Romulus Augustulus at Ravenna and sent the imperial insignia to Constantinople. Roman administration in the west gave way to Frankish, Gothic and Vandal kingdoms, while the eastern empire continued.",
+    "wikipediaTitle": "Fall of the Western Roman Empire",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Fall_of_the_Western_Roman_Empire"
+    ]
+  },
+  {
+    "id": "maya-classic-tikal",
+    "title": "The Classic Maya at Tikal",
+    "year": 600,
+    "lat": 17.22,
+    "lng": -89.62,
+    "countryIso": "GT",
+    "category": "culture",
+    "importance": 3,
+    "summary": "By AD 600 Tikal in the Petén rainforest was a Maya city-state of temple pyramids, causeways and carved stelae, locked in dynastic war with Calakmul. Maya scribes kept the most sophisticated writing and calendar systems of the pre-Columbian Americas before the southern cities were abandoned after 900.",
+    "wikipediaTitle": "Tikal",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Tikal"
+    ]
+  },
+  {
+    "id": "hijra-of-muhammad",
+    "title": "The Hijra and the rise of Islam",
+    "year": 622,
+    "lat": 24.47,
+    "lng": 39.61,
+    "countryIso": "SA",
+    "category": "religion",
+    "importance": 5,
+    "summary": "Muhammad and his followers moved from Mecca to Medina in 622, an emigration that starts the Islamic calendar and created the first Muslim community. Within a century of his death in 632 Arab armies ruled from the Atlantic coast of Iberia to the Indus.",
+    "wikipediaTitle": "Hijrah",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Hijrah"
+    ]
+  },
+  {
+    "id": "battle-of-yarmouk",
+    "title": "The Battle of Yarmouk",
+    "year": 636,
+    "lat": 32.76,
+    "lng": 35.9,
+    "countryIso": "SY",
+    "category": "war",
+    "importance": 4,
+    "summary": "Arab forces under Khalid ibn al-Walid broke a large Byzantine army on the Yarmouk river in 636, deciding the fate of Syria. Byzantium lost the Levant and Egypt permanently, and the Rashidun caliphate became a Mediterranean power.",
+    "wikipediaTitle": "Battle of the Yarmuk",
+    "belligerents": [
+      {
+        "name": "Rashidun Caliphate",
+        "lat": 24.47,
+        "lng": 39.61,
+        "side": "a"
+      },
+      {
+        "name": "Byzantine Empire",
+        "lat": 41.01,
+        "lng": 28.98,
+        "side": "b"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Battle_of_the_Yarmuk"
+    ]
+  },
+  {
+    "id": "abbasid-baghdad-founded",
+    "title": "The Abbasids found Baghdad",
+    "year": 762,
+    "lat": 33.31,
+    "lng": 44.36,
+    "countryIso": "IQ",
+    "category": "politics",
+    "importance": 4,
+    "summary": "Caliph al-Mansur laid out his round city on the Tigris in 762 as the Abbasid capital. Baghdad became the centre of a translation movement that preserved and extended Greek, Persian and Indian science, mathematics and medicine for centuries.",
+    "wikipediaTitle": "Baghdad",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Baghdad"
+    ]
+  },
+  {
+    "id": "angkor-founded",
+    "title": "Jayavarman II founds the Khmer Empire",
+    "year": 802,
+    "lat": 13.41,
+    "lng": 103.87,
+    "countryIso": "KH",
+    "category": "politics",
+    "importance": 3,
+    "summary": "Jayavarman II declared himself universal ruler on Phnom Kulen in 802, founding the Khmer Empire that would build Angkor. Its vast reservoirs and the temple of Angkor Wat, raised under Suryavarman II in the twelfth century, served a city of several hundred thousand people.",
+    "wikipediaTitle": "Khmer Empire",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Khmer_Empire"
+    ]
+  },
+  {
+    "id": "leif-erikson-vinland",
+    "title": "Norse settlement at L'Anse aux Meadows",
+    "year": 1000,
+    "lat": 51.6,
+    "lng": -55.53,
+    "countryIso": "CA",
+    "category": "exploration",
+    "importance": 3,
+    "summary": "Around the year 1000 Leif Erikson and other Greenlanders reached the coast of North America, and a Norse camp at L'Anse aux Meadows in Newfoundland has been excavated and dated to that time. The settlement lasted only a few years, five centuries before Columbus.",
+    "wikipediaTitle": "L'Anse aux Meadows",
+    "sources": [
+      "https://en.wikipedia.org/wiki/L%27Anse_aux_Meadows"
+    ]
+  },
+  {
+    "id": "first-crusade",
+    "title": "The First Crusade takes Jerusalem",
+    "year": 1099,
+    "lat": 31.78,
+    "lng": 35.23,
+    "countryIso": "IL",
+    "category": "religion",
+    "importance": 4,
+    "summary": "Preached by Urban II at Clermont in 1095, the First Crusade ended with the storm and massacre of Jerusalem in July 1099 and the founding of Latin states in the Levant. Two centuries of crusading followed, deepening contact and hostility between Latin Christendom, Byzantium and Islam.",
+    "wikipediaTitle": "First Crusade",
+    "belligerents": [
+      {
+        "name": "Crusader armies",
+        "lat": 45.78,
+        "lng": 3.08,
+        "side": "a"
+      },
+      {
+        "name": "Fatimid Caliphate",
+        "lat": 30.04,
+        "lng": 31.24,
+        "side": "b"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/First_Crusade"
+    ]
+  },
+  {
+    "id": "great-zimbabwe",
+    "title": "Great Zimbabwe",
+    "year": 1200,
+    "lat": -20.27,
+    "lng": 30.93,
+    "countryIso": "ZW",
+    "category": "culture",
+    "importance": 3,
+    "summary": "From about 1200 the Shona built Great Zimbabwe's mortarless granite enclosures, the capital of a state that grew rich on cattle and on gold traded to the Swahili coast. Chinese and Persian imports found in the ruins show how far that trade reached.",
+    "wikipediaTitle": "Great Zimbabwe",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Great_Zimbabwe"
+    ]
+  },
+  {
+    "id": "genghis-khan-proclaimed",
+    "title": "Temüjin proclaimed Genghis Khan",
+    "year": 1206,
+    "lat": 47.92,
+    "lng": 106.92,
+    "countryIso": "MN",
+    "category": "politics",
+    "importance": 5,
+    "summary": "A council of Mongol chiefs on the Onon river acclaimed Temüjin as Genghis Khan in 1206, uniting the steppe tribes under one law and decimal army. Within a lifetime his family ruled the largest contiguous land empire in history.",
+    "wikipediaTitle": "Genghis Khan",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Genghis_Khan"
+    ]
+  },
+  {
+    "id": "fall-of-zhongdu",
+    "title": "The Mongols take Zhongdu",
+    "year": 1215,
+    "lat": 39.9,
+    "lng": 116.41,
+    "countryIso": "CN",
+    "category": "war",
+    "importance": 3,
+    "summary": "Genghis Khan's armies captured and sacked Zhongdu, the Jin dynasty capital on the site of modern Beijing, in 1215. The fall of a great walled city proved the Mongols could break settled empires, not only raid them.",
+    "wikipediaTitle": "Battle of Zhongdu",
+    "belligerents": [
+      {
+        "name": "Mongol Empire",
+        "lat": 47.92,
+        "lng": 106.92,
+        "side": "a"
+      },
+      {
+        "name": "Jin dynasty",
+        "lat": 39.9,
+        "lng": 116.41,
+        "side": "b"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Battle_of_Zhongdu"
+    ]
+  },
+  {
+    "id": "magna-carta",
+    "title": "Magna Carta",
+    "year": 1215,
+    "lat": 51.44,
+    "lng": -0.56,
+    "countryIso": "GB",
+    "category": "politics",
+    "importance": 4,
+    "summary": "Rebel barons forced King John to seal a charter at Runnymede in June 1215 that bound the crown to due process and consent to taxation. Though annulled within weeks, it was reissued repeatedly and became a founding text for constitutional limits on power.",
+    "wikipediaTitle": "Magna Carta",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Magna_Carta"
+    ]
+  },
+  {
+    "id": "siege-of-baghdad-1258",
+    "title": "The Mongol sack of Baghdad",
+    "year": 1258,
+    "lat": 33.31,
+    "lng": 44.36,
+    "countryIso": "IQ",
+    "category": "war",
+    "importance": 4,
+    "summary": "Hulagu Khan's army stormed Baghdad in February 1258, killed the last Abbasid caliph al-Musta'sim and destroyed its libraries and canals. The five-century Abbasid caliphate ended and Iraq's agricultural heartland took generations to recover.",
+    "wikipediaTitle": "Siege of Baghdad (1258)",
+    "belligerents": [
+      {
+        "name": "Mongol Ilkhanate (Hulagu)",
+        "lat": 38.08,
+        "lng": 46.29,
+        "side": "a"
+      },
+      {
+        "name": "Abbasid Caliphate",
+        "lat": 33.31,
+        "lng": 44.36,
+        "side": "b"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Siege_of_Baghdad_(1258)"
+    ]
+  },
+  {
+    "id": "battle-of-ain-jalut",
+    "title": "The Battle of Ain Jalut",
+    "year": 1260,
+    "lat": 32.55,
+    "lng": 35.35,
+    "countryIso": "IL",
+    "category": "war",
+    "importance": 3,
+    "summary": "Mamluk forces from Egypt under Qutuz and Baybars defeated a Mongol army in Galilee in September 1260. It was the first strategic check on Mongol expansion and fixed the western limit of their advance at the Euphrates.",
+    "wikipediaTitle": "Battle of Ain Jalut",
+    "belligerents": [
+      {
+        "name": "Mamluk Sultanate",
+        "lat": 30.04,
+        "lng": 31.24,
+        "side": "a"
+      },
+      {
+        "name": "Mongol Ilkhanate",
+        "lat": 38.08,
+        "lng": 46.29,
+        "side": "b"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Battle_of_Ain_Jalut"
+    ]
+  },
+  {
+    "id": "kublai-founds-yuan",
+    "title": "Kublai Khan founds the Yuan dynasty",
+    "year": 1271,
+    "lat": 39.9,
+    "lng": 116.41,
+    "countryIso": "CN",
+    "category": "politics",
+    "importance": 4,
+    "summary": "Kublai Khan declared the Yuan dynasty in 1271 and completed the conquest of Song China by 1279, ruling from Dadu, today's Beijing. For the first time all of China was governed by a steppe dynasty, and travellers such as Marco Polo crossed a continent under one authority.",
+    "wikipediaTitle": "Yuan dynasty",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Yuan_dynasty"
+    ]
+  },
+  {
+    "id": "swahili-coast-kilwa",
+    "title": "Kilwa and the Swahili coast",
+    "year": 1300,
+    "lat": -8.96,
+    "lng": 39.51,
+    "countryIso": "TZ",
+    "category": "economy",
+    "importance": 2,
+    "summary": "Kilwa Kisiwani controlled the gold trade from Sofala in the fourteenth century, its coral-stone palace of Husuni Kubwa the grandest building in sub-Saharan Africa. Ibn Battuta called it one of the finest cities he had seen, and Swahili grew as the coast's trading language.",
+    "wikipediaTitle": "Kilwa Sultanate",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kilwa_Sultanate"
+    ]
+  },
+  {
+    "id": "mansa-musa-hajj",
+    "title": "Mansa Musa's pilgrimage to Mecca",
+    "year": 1324,
+    "lat": 16.77,
+    "lng": -3.01,
+    "countryIso": "ML",
+    "category": "economy",
+    "importance": 3,
+    "summary": "The Mali emperor Mansa Musa crossed the Sahara to Mecca in 1324 with a caravan so laden with gold that his spending unsettled Egyptian prices for years. His journey put Mali and Timbuktu on European maps and funded the city's mosques and scholarship.",
+    "wikipediaTitle": "Mansa Musa",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mansa_Musa"
+    ]
+  },
+  {
+    "id": "black-death",
+    "title": "The Black Death",
+    "year": 1347,
+    "endYear": 1351,
+    "lat": 41,
+    "lng": 14.2,
+    "countryIso": "IT",
+    "category": "disaster",
+    "importance": 5,
+    "summary": "Plague carried from the Black Sea reached Sicily and Genoa in 1347 and killed perhaps a third to half of Europe's people within four years, with equally severe losses in the Middle East. Labour shortages broke serfdom's grip, raised wages and unsettled the church's authority.",
+    "wikipediaTitle": "Black Death",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Black_Death"
+    ]
+  },
+  {
+    "id": "fall-of-the-yuan",
+    "title": "The Ming overthrow the Yuan",
+    "year": 1368,
+    "lat": 32.06,
+    "lng": 118.8,
+    "countryIso": "CN",
+    "category": "war",
+    "importance": 3,
+    "summary": "Zhu Yuanzhang, a peasant rebel leader, took Dadu in 1368, drove the Mongol court back to the steppe and founded the Ming dynasty from Nanjing. The Mongol world empire had now lost China, its richest province.",
+    "wikipediaTitle": "Ming dynasty",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ming_dynasty"
+    ]
+  },
+  {
+    "id": "timur-samarkand",
+    "title": "Timur builds his empire at Samarkand",
+    "year": 1370,
+    "lat": 39.65,
+    "lng": 66.96,
+    "countryIso": "UZ",
+    "category": "war",
+    "importance": 3,
+    "summary": "Timur took power in Transoxiana in 1370 and campaigned from Delhi to Ankara, funnelling plunder and captured craftsmen into Samarkand. His Registan and Gur-e Amir made the city a centre of Persianate art, and his descendants founded the Mughal Empire.",
+    "wikipediaTitle": "Timur",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Timur"
+    ]
+  },
+  {
+    "id": "kalmar-union",
+    "title": "The Kalmar Union",
+    "year": 1397,
+    "lat": 56.66,
+    "lng": 16.36,
+    "countryIso": "SE",
+    "category": "politics",
+    "importance": 2,
+    "summary": "In 1397 Margaret I brought Denmark, Norway and Sweden under a single monarch at Kalmar. The union held, uneasily, until Gustav Vasa led Sweden out of it in 1523, while Denmark and Norway stayed joined until 1814.",
+    "wikipediaTitle": "Kalmar Union",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kalmar_Union"
+    ]
+  },
+  {
+    "id": "zheng-he-voyages",
+    "title": "Zheng He's treasure voyages",
+    "year": 1405,
+    "endYear": 1433,
+    "lat": 32.06,
+    "lng": 118.8,
+    "countryIso": "CN",
+    "category": "exploration",
+    "importance": 4,
+    "summary": "Between 1405 and 1433 the admiral Zheng He led seven Ming fleets of hundreds of ships to Southeast Asia, India, Arabia and the East African coast. The voyages projected Ming prestige and gathered tribute before the court abandoned them for good.",
+    "wikipediaTitle": "Ming treasure voyages",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ming_treasure_voyages"
+    ]
+  },
+  {
+    "id": "sejong-hangul",
+    "title": "Sejong the Great promulgates Hangul",
+    "year": 1446,
+    "lat": 37.58,
+    "lng": 126.98,
+    "countryIso": "KR",
+    "category": "culture",
+    "importance": 3,
+    "summary": "King Sejong of Joseon published Hunminjeongeum in 1446, a new alphabet designed so that ordinary Koreans could read and write without mastering Chinese characters. Hangul is now the script of both Koreas and is celebrated as a feat of deliberate linguistic design.",
+    "wikipediaTitle": "Hangul",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Hangul"
+    ]
+  },
+  {
+    "id": "gutenberg-printing-press",
+    "title": "Gutenberg's printing press",
+    "year": 1450,
+    "lat": 49.99,
+    "lng": 8.25,
+    "countryIso": "DE",
+    "category": "science",
+    "importance": 5,
+    "summary": "Johannes Gutenberg combined movable metal type, oil-based ink and a screw press at Mainz around 1450, printing his 42-line Bible by 1455. Books became cheap enough to spread the Reformation, the scientific revolution and mass literacy across Europe.",
+    "wikipediaTitle": "Printing press",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Printing_press"
+    ]
+  },
+  {
+    "id": "fall-of-constantinople",
+    "title": "The fall of Constantinople",
+    "year": 1453,
+    "lat": 41.01,
+    "lng": 28.98,
+    "countryIso": "TR",
+    "category": "war",
+    "importance": 5,
+    "summary": "Mehmed II's Ottoman army breached the Theodosian walls on 29 May 1453 after a 53-day siege in which giant bombards battered the land defences. The last Roman emperor, Constantine XI, died in the fighting, and the city became the Ottoman capital Istanbul.",
+    "wikipediaTitle": "Fall of Constantinople",
+    "belligerents": [
+      {
+        "name": "Ottoman Empire (Mehmed II)",
+        "lat": 40.19,
+        "lng": 29.06,
+        "side": "a"
+      },
+      {
+        "name": "Byzantine Empire",
+        "lat": 41.01,
+        "lng": 28.98,
+        "side": "b"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Fall_of_Constantinople"
+    ]
+  },
+  {
+    "id": "dias-rounds-the-cape",
+    "title": "Bartolomeu Dias rounds the Cape",
+    "year": 1488,
+    "lat": -34.36,
+    "lng": 18.47,
+    "countryIso": "ZA",
+    "category": "exploration",
+    "importance": 4,
+    "summary": "Bartolomeu Dias was blown past the southern tip of Africa in 1488 and confirmed that the Atlantic and Indian Oceans joined. Portugal now had a sea route towards Asia, and King John II renamed his Cape of Storms the Cape of Good Hope.",
+    "wikipediaTitle": "Bartolomeu Dias",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bartolomeu_Dias"
+    ]
+  },
+  {
+    "id": "columbus-1492",
+    "title": "Columbus reaches the Americas",
+    "year": 1492,
+    "lat": 24.04,
+    "lng": -74.5,
+    "countryIso": "BS",
+    "category": "exploration",
+    "importance": 5,
+    "summary": "Sailing for Castile, Christopher Columbus made landfall in the Bahamas on 12 October 1492 believing he had reached Asia. The permanent link he opened between the hemispheres began the Columbian exchange of crops, animals and diseases, and the catastrophic collapse of Indigenous populations.",
+    "wikipediaTitle": "Voyages of Christopher Columbus",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Voyages_of_Christopher_Columbus"
+    ]
+  },
+  {
+    "id": "vasco-da-gama-india",
+    "title": "Vasco da Gama reaches India",
+    "year": 1498,
+    "lat": 11.25,
+    "lng": 75.78,
+    "countryIso": "IN",
+    "category": "exploration",
+    "importance": 4,
+    "summary": "Vasco da Gama's fleet anchored at Calicut in May 1498, the first ships to sail from Europe to India around Africa. Portugal used the route to seize the spice trade by force, planting fortified posts from Mozambique to Malacca.",
+    "wikipediaTitle": "Vasco da Gama",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Vasco_da_Gama"
+    ]
+  },
+  {
+    "id": "cabral-brazil",
+    "title": "Cabral claims Brazil for Portugal",
+    "year": 1500,
+    "lat": -16.44,
+    "lng": -39.07,
+    "countryIso": "BR",
+    "category": "exploration",
+    "importance": 3,
+    "summary": "Pedro Álvares Cabral's India-bound fleet made landfall on the Bahian coast in April 1500 and claimed the land under the Treaty of Tordesillas. Portuguese sugar plantations followed, worked by enslaved Africans, making Brazil the largest destination of the Atlantic slave trade.",
+    "wikipediaTitle": "Pedro Álvares Cabral",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Pedro_%C3%81lvares_Cabral"
+    ]
+  },
+  {
+    "id": "luther-95-theses",
+    "title": "Luther's Ninety-five Theses",
+    "year": 1517,
+    "lat": 51.87,
+    "lng": 12.64,
+    "countryIso": "DE",
+    "category": "religion",
+    "importance": 5,
+    "summary": "Martin Luther published his objections to the sale of indulgences at Wittenberg in October 1517, and printing carried them across Germany within weeks. The Reformation split western Christianity, remade European politics and fuelled more than a century of religious war.",
+    "wikipediaTitle": "Ninety-five Theses",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ninety-five_Theses"
+    ]
+  },
+  {
+    "id": "magellan-elcano-circumnavigation",
+    "title": "The Magellan–Elcano circumnavigation",
+    "year": 1519,
+    "endYear": 1522,
+    "lat": 37.19,
+    "lng": -6.95,
+    "countryIso": "ES",
+    "category": "exploration",
+    "importance": 4,
+    "summary": "Five ships left Sanlúcar in 1519 under Ferdinand Magellan; he was killed in the Philippines and Juan Sebastián Elcano brought the Victoria home in 1522 with 18 survivors. The voyage proved the world could be sailed around and revealed the true scale of the Pacific.",
+    "wikipediaTitle": "Magellan expedition",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Magellan_expedition"
+    ]
+  },
+  {
+    "id": "fall-of-tenochtitlan",
+    "title": "The fall of Tenochtitlan",
+    "year": 1521,
+    "lat": 19.43,
+    "lng": -99.13,
+    "countryIso": "MX",
+    "category": "war",
+    "importance": 4,
+    "summary": "Hernán Cortés, with tens of thousands of Tlaxcalan allies and helped by a smallpox epidemic, captured Tenochtitlan in August 1521 after a months-long siege. The Aztec empire fell and New Spain was built on its ruins.",
+    "wikipediaTitle": "Fall of Tenochtitlan",
+    "belligerents": [
+      {
+        "name": "Spain and Tlaxcala",
+        "lat": 19.32,
+        "lng": -98.24,
+        "side": "a"
+      },
+      {
+        "name": "Aztec Triple Alliance",
+        "lat": 19.43,
+        "lng": -99.13,
+        "side": "b"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Fall_of_Tenochtitlan"
+    ]
+  },
+  {
+    "id": "pizarro-cajamarca",
+    "title": "Pizarro seizes the Inca emperor at Cajamarca",
+    "year": 1532,
+    "lat": -7.16,
+    "lng": -78.51,
+    "countryIso": "PE",
+    "category": "war",
+    "importance": 3,
+    "summary": "Francisco Pizarro's small band ambushed and captured Atahualpa at Cajamarca in November 1532, collected an enormous ransom in gold and silver, then executed him. Spanish rule over the Andes and the silver of Potosí followed.",
+    "wikipediaTitle": "Battle of Cajamarca",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Battle_of_Cajamarca"
+    ]
+  },
+  {
+    "id": "potosi-silver",
+    "title": "The silver mountain of Potosí",
+    "year": 1545,
+    "lat": -19.59,
+    "lng": -65.75,
+    "countryIso": "BO",
+    "category": "economy",
+    "importance": 3,
+    "summary": "Spanish miners opened the Cerro Rico at Potosí in 1545, drawing forced Indigenous labour through the mita system into the richest silver deposit on earth. Its bullion paid for Habsburg wars and flowed through Manila to China, creating the first truly global money supply.",
+    "wikipediaTitle": "Potosí",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Potos%C3%AD"
+    ]
+  },
+  {
+    "id": "dutch-east-india-company",
+    "title": "The Dutch East India Company chartered",
+    "year": 1602,
+    "lat": 52.37,
+    "lng": 4.9,
+    "countryIso": "NL",
+    "category": "economy",
+    "importance": 3,
+    "summary": "The States General granted the VOC a monopoly on Asian trade in 1602 and the power to make war and treaties, funded by the first publicly traded shares. It seized the spice islands by force and ruled Java for nearly two centuries as a corporate state.",
+    "wikipediaTitle": "Dutch East India Company",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Dutch_East_India_Company"
+    ]
+  },
+  {
+    "id": "tokugawa-shogunate",
+    "title": "The Tokugawa shogunate",
+    "year": 1603,
+    "lat": 35.68,
+    "lng": 139.69,
+    "countryIso": "JP",
+    "category": "politics",
+    "importance": 4,
+    "summary": "Tokugawa Ieyasu took the title of shogun in 1603 after winning at Sekigahara and ruled Japan from Edo. His successors closed the country to most foreign contact for over two centuries, a period of internal peace, urban growth and a flourishing merchant culture.",
+    "wikipediaTitle": "Tokugawa shogunate",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Tokugawa_shogunate"
+    ]
+  },
+  {
+    "id": "thirty-years-war",
+    "title": "The Thirty Years' War",
+    "year": 1618,
+    "endYear": 1648,
+    "lat": 50.09,
+    "lng": 14.42,
+    "countryIso": "CZ",
+    "category": "war",
+    "importance": 4,
+    "summary": "A Bohemian revolt in 1618 grew into a war that drew in Denmark, Sweden, Spain and France and killed perhaps a fifth of the German population. The Peace of Westphalia in 1648 settled religion by territory and is taken as the start of the modern state system.",
+    "wikipediaTitle": "Thirty Years' War",
+    "belligerents": [
+      {
+        "name": "Habsburg Empire and Catholic League",
+        "lat": 48.21,
+        "lng": 16.37,
+        "side": "a"
+      },
+      {
+        "name": "Sweden, France and Protestant princes",
+        "lat": 59.33,
+        "lng": 18.07,
+        "side": "b"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Thirty_Years%27_War"
+    ]
+  },
+  {
+    "id": "benin-kingdom-bronzes",
+    "title": "The Kingdom of Benin and its bronzes",
+    "year": 1650,
+    "lat": 6.34,
+    "lng": 5.62,
+    "countryIso": "NG",
+    "category": "culture",
+    "importance": 2,
+    "summary": "The Edo kingdom of Benin, walled and powerful in the Niger delta, had its guilds cast brass plaques and heads for the oba's palace from the sixteenth century. British troops sacked the city in 1897 and the looted works are still contested in museums worldwide.",
+    "wikipediaTitle": "Kingdom of Benin",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kingdom_of_Benin"
+    ]
+  },
+  {
+    "id": "battle-of-vienna-1683",
+    "title": "The Battle of Vienna",
+    "year": 1683,
+    "lat": 48.21,
+    "lng": 16.37,
+    "countryIso": "AT",
+    "category": "war",
+    "importance": 3,
+    "summary": "A relief army under the Polish king Jan III Sobieski broke the Ottoman siege of Vienna in September 1683 with a charge of winged hussars. The defeat began a long Ottoman retreat from Hungary and central Europe.",
+    "wikipediaTitle": "Battle of Vienna",
+    "belligerents": [
+      {
+        "name": "Holy League (Poland, Austria)",
+        "lat": 50.06,
+        "lng": 19.94,
+        "side": "a"
+      },
+      {
+        "name": "Ottoman Empire",
+        "lat": 41.01,
+        "lng": 28.98,
+        "side": "b"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Battle_of_Vienna"
+    ]
+  },
+  {
+    "id": "glorious-revolution",
+    "title": "The Glorious Revolution",
+    "year": 1688,
+    "lat": 51.51,
+    "lng": -0.13,
+    "countryIso": "GB",
+    "category": "politics",
+    "importance": 4,
+    "summary": "Parliament invited William of Orange to replace James II in 1688, and the Bill of Rights of 1689 made the crown answerable to Parliament for taxes, laws and armies. The settlement underpinned Britain's constitutional monarchy and the credit that funded its later wars.",
+    "wikipediaTitle": "Glorious Revolution",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Glorious_Revolution"
+    ]
+  },
+  {
+    "id": "cook-reaches-australia",
+    "title": "Cook charts the east coast of Australia",
+    "year": 1770,
+    "lat": -34,
+    "lng": 151.22,
+    "countryIso": "AU",
+    "category": "exploration",
+    "importance": 3,
+    "summary": "James Cook's Endeavour anchored in Botany Bay in April 1770 and charted the eastern coastline, which he claimed for Britain. Penal settlement at Sydney Cove followed in 1788, beginning the dispossession of Aboriginal peoples who had lived there for tens of thousands of years.",
+    "wikipediaTitle": "First voyage of James Cook",
+    "sources": [
+      "https://en.wikipedia.org/wiki/First_voyage_of_James_Cook"
+    ]
+  },
+  {
+    "id": "american-declaration-independence",
+    "title": "The American Declaration of Independence",
+    "year": 1776,
+    "lat": 39.95,
+    "lng": -75.15,
+    "countryIso": "US",
+    "category": "politics",
+    "importance": 5,
+    "summary": "Thirteen British colonies declared themselves independent states on 4 July 1776 in a text drafted mainly by Thomas Jefferson. French intervention helped secure the victory at Yorktown in 1781, and Britain recognised the United States in 1783.",
+    "wikipediaTitle": "United States Declaration of Independence",
+    "sources": [
+      "https://en.wikipedia.org/wiki/United_States_Declaration_of_Independence"
+    ]
+  },
+  {
+    "id": "watt-steam-engine",
+    "title": "Watt's steam engine and the Industrial Revolution",
+    "year": 1776,
+    "lat": 52.49,
+    "lng": -1.89,
+    "countryIso": "GB",
+    "category": "science",
+    "importance": 5,
+    "summary": "James Watt and Matthew Boulton sold their first commercial separate-condenser engines from Birmingham in 1776, cutting coal use dramatically. Cheap rotary power drove mills, mines and later railways, and began the sustained growth and fossil-fuel emissions of the industrial age.",
+    "wikipediaTitle": "Watt steam engine",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Watt_steam_engine"
+    ]
+  },
+  {
+    "id": "storming-of-the-bastille",
+    "title": "The French Revolution begins",
+    "year": 1789,
+    "lat": 48.85,
+    "lng": 2.37,
+    "countryIso": "FR",
+    "category": "politics",
+    "importance": 5,
+    "summary": "A Paris crowd stormed the Bastille on 14 July 1789, weeks after the Third Estate declared itself a National Assembly. The revolution abolished feudal privilege and proclaimed the rights of man, then turned to terror and war before Napoleon took power.",
+    "wikipediaTitle": "French Revolution",
+    "sources": [
+      "https://en.wikipedia.org/wiki/French_Revolution"
+    ]
+  },
+  {
+    "id": "haitian-revolution",
+    "title": "The Haitian Revolution",
+    "year": 1791,
+    "endYear": 1804,
+    "lat": 18.54,
+    "lng": -72.34,
+    "countryIso": "HT",
+    "category": "politics",
+    "importance": 5,
+    "summary": "Enslaved people in Saint-Domingue rose in 1791 under leaders including Toussaint Louverture and Jean-Jacques Dessalines, defeating French, Spanish and British forces. Haiti's independence in 1804 created the first Black republic and the only state founded by a successful slave revolt.",
+    "wikipediaTitle": "Haitian Revolution",
+    "belligerents": [
+      {
+        "name": "Haitian revolutionaries",
+        "lat": 18.54,
+        "lng": -72.34,
+        "side": "a"
+      },
+      {
+        "name": "France",
+        "lat": 48.85,
+        "lng": 2.35,
+        "side": "b"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Haitian_Revolution"
+    ]
+  },
+  {
+    "id": "battle-of-waterloo",
+    "title": "The Battle of Waterloo",
+    "year": 1815,
+    "lat": 50.68,
+    "lng": 4.41,
+    "countryIso": "BE",
+    "category": "war",
+    "importance": 4,
+    "summary": "Wellington's allied army held the ridge at Mont-Saint-Jean on 18 June 1815 until Blücher's Prussians arrived to break Napoleon's last army. Napoleon abdicated days later, and the Congress of Vienna settlement kept Europe largely free of general war for a century.",
+    "wikipediaTitle": "Battle of Waterloo",
+    "belligerents": [
+      {
+        "name": "France (Napoleon)",
+        "lat": 48.85,
+        "lng": 2.35,
+        "side": "a"
+      },
+      {
+        "name": "Britain and the Netherlands",
+        "lat": 51.51,
+        "lng": -0.13,
+        "side": "b"
+      },
+      {
+        "name": "Prussia (Blücher)",
+        "lat": 52.52,
+        "lng": 13.4,
+        "side": "b"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Battle_of_Waterloo"
+    ]
+  },
+  {
+    "id": "argentina-independence",
+    "title": "Argentina declares independence",
+    "year": 1816,
+    "lat": -26.83,
+    "lng": -65.2,
+    "countryIso": "AR",
+    "category": "politics",
+    "importance": 2,
+    "summary": "The Congress of Tucumán declared the United Provinces of the Río de la Plata independent from Spain on 9 July 1816. José de San Martín then crossed the Andes to carry the war to Chile and Peru.",
+    "wikipediaTitle": "Argentine Declaration of Independence",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Argentine_Declaration_of_Independence"
+    ]
+  },
+  {
+    "id": "bolivar-boyaca",
+    "title": "Bolívar wins at Boyacá",
+    "year": 1819,
+    "lat": 5.45,
+    "lng": -73.37,
+    "countryIso": "CO",
+    "category": "war",
+    "importance": 3,
+    "summary": "Simón Bolívar crossed the flooded llanos and the Andes to surprise a royalist army at the Boyacá bridge in August 1819, opening Bogotá to him. The victory secured Gran Colombia and drove the wider liberation of Venezuela, Ecuador, Peru and Bolivia.",
+    "wikipediaTitle": "Battle of Boyacá",
+    "belligerents": [
+      {
+        "name": "Patriot army (Bolívar)",
+        "lat": 10.49,
+        "lng": -66.88,
+        "side": "a"
+      },
+      {
+        "name": "Spanish royalists",
+        "lat": 4.71,
+        "lng": -74.07,
+        "side": "b"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Battle_of_Boyac%C3%A1"
+    ]
+  },
+  {
+    "id": "irish-great-famine",
+    "title": "The Great Famine in Ireland",
+    "year": 1845,
+    "endYear": 1852,
+    "lat": 53.35,
+    "lng": -6.26,
+    "countryIso": "IE",
+    "category": "disaster",
+    "importance": 3,
+    "summary": "Potato blight destroyed the crop that fed most of rural Ireland from 1845, and about a million people died while food continued to be exported under British policy. Another million emigrated, and Ireland's population has never returned to its pre-famine level.",
+    "wikipediaTitle": "Great Famine (Ireland)",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Great_Famine_(Ireland)"
+    ]
+  },
+  {
+    "id": "darwin-origin-of-species",
+    "title": "Darwin publishes On the Origin of Species",
+    "year": 1859,
+    "lat": 51.33,
+    "lng": 0.05,
+    "countryIso": "GB",
+    "category": "science",
+    "importance": 5,
+    "summary": "Charles Darwin set out evolution by natural selection in 1859 after two decades of evidence gathered since the Beagle voyage. The theory unified biology and reframed humanity's place in nature, provoking argument that continues in some quarters today.",
+    "wikipediaTitle": "On the Origin of Species",
+    "sources": [
+      "https://en.wikipedia.org/wiki/On_the_Origin_of_Species"
+    ]
+  },
+  {
+    "id": "meiji-restoration",
+    "title": "The Meiji Restoration",
+    "year": 1868,
+    "lat": 35.68,
+    "lng": 139.69,
+    "countryIso": "JP",
+    "category": "politics",
+    "importance": 5,
+    "summary": "Samurai from Satsuma and Chōshū overthrew the shogunate in 1868 and restored the emperor, moving the court to Tokyo. In a generation Japan built railways, conscription, a constitution and heavy industry, becoming the first non-Western industrial great power.",
+    "wikipediaTitle": "Meiji Restoration",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Meiji_Restoration"
+    ]
+  },
+  {
+    "id": "german-unification",
+    "title": "The German Empire proclaimed",
+    "year": 1871,
+    "lat": 48.8,
+    "lng": 2.12,
+    "countryIso": "FR",
+    "category": "politics",
+    "importance": 4,
+    "summary": "After defeating France, Bismarck had Wilhelm I proclaimed German emperor in the Hall of Mirrors at Versailles in January 1871. A unified Germany became continental Europe's strongest economy and army, and the humiliation poisoned French politics until 1914.",
+    "wikipediaTitle": "Unification of Germany",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Unification_of_Germany"
+    ]
+  },
+  {
+    "id": "nz-womens-suffrage",
+    "title": "New Zealand grants women the vote",
+    "year": 1893,
+    "lat": -41.29,
+    "lng": 174.78,
+    "countryIso": "NZ",
+    "category": "politics",
+    "importance": 3,
+    "summary": "New Zealand became the first self-governing country to give all adult women the parliamentary vote in September 1893, after a petition organised by Kate Sheppard. Australia followed in 1902 and the idea spread through the suffrage movements of Europe and North America.",
+    "wikipediaTitle": "Women's suffrage in New Zealand",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Women%27s_suffrage_in_New_Zealand"
+    ]
+  },
+  {
+    "id": "battle-of-adwa",
+    "title": "Ethiopia defeats Italy at Adwa",
+    "year": 1896,
+    "lat": 14.17,
+    "lng": 38.9,
+    "countryIso": "ET",
+    "category": "war",
+    "importance": 3,
+    "summary": "Menelik II's army destroyed an invading Italian force at Adwa on 1 March 1896, forcing Italy to recognise Ethiopian sovereignty. It was the most decisive African victory over a European power in the colonial era and a rallying point for pan-Africanists.",
+    "wikipediaTitle": "Battle of Adwa",
+    "belligerents": [
+      {
+        "name": "Ethiopian Empire",
+        "lat": 9.03,
+        "lng": 38.74,
+        "side": "a"
+      },
+      {
+        "name": "Kingdom of Italy",
+        "lat": 41.89,
+        "lng": 12.48,
+        "side": "b"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Battle_of_Adwa"
+    ]
+  },
+  {
+    "id": "australian-federation",
+    "title": "The Federation of Australia",
+    "year": 1901,
+    "lat": -35.28,
+    "lng": 149.13,
+    "countryIso": "AU",
+    "category": "politics",
+    "importance": 2,
+    "summary": "Six British colonies federated as the Commonwealth of Australia on 1 January 1901 with a written constitution and a federal parliament. The new parliament's early laws also built the restrictive White Australia policy, dismantled only in the 1970s.",
+    "wikipediaTitle": "Federation of Australia",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Federation_of_Australia"
+    ]
+  },
+  {
+    "id": "first-battle-of-the-marne",
+    "title": "The First Battle of the Marne",
+    "year": 1914,
+    "lat": 48.96,
+    "lng": 3.38,
+    "countryIso": "FR",
+    "category": "war",
+    "importance": 4,
+    "summary": "French and British armies counter-attacked the advancing Germans east of Paris in September 1914 and forced them back to the Aisne. The German plan for a quick victory failed, and the front froze into four years of trench warfare.",
+    "wikipediaTitle": "First Battle of the Marne",
+    "belligerents": [
+      {
+        "name": "German Empire",
+        "lat": 52.52,
+        "lng": 13.4,
+        "side": "a"
+      },
+      {
+        "name": "France",
+        "lat": 48.85,
+        "lng": 2.35,
+        "side": "b"
+      },
+      {
+        "name": "British Empire",
+        "lat": 51.51,
+        "lng": -0.13,
+        "side": "b"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/First_Battle_of_the_Marne"
+    ]
+  },
+  {
+    "id": "panama-canal-opens",
+    "title": "The Panama Canal opens",
+    "year": 1914,
+    "lat": 9.08,
+    "lng": -79.68,
+    "countryIso": "PA",
+    "category": "economy",
+    "importance": 3,
+    "summary": "The canal opened in August 1914 after a decade of American construction, following a French attempt that cost tens of thousands of lives to disease. The United States backed Panama's secession from Colombia in 1903 to get the route, and handed the canal over in 1999.",
+    "wikipediaTitle": "Panama Canal",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Panama_Canal"
+    ]
+  },
+  {
+    "id": "sarajevo-assassination",
+    "title": "The assassination at Sarajevo",
+    "year": 1914,
+    "lat": 43.86,
+    "lng": 18.42,
+    "countryIso": "BA",
+    "category": "war",
+    "importance": 5,
+    "summary": "Gavrilo Princip shot Archduke Franz Ferdinand and his wife Sophie in Sarajevo on 28 June 1914. Austria-Hungary's ultimatum to Serbia set the alliance system in motion, and within five weeks the great powers of Europe were at war.",
+    "wikipediaTitle": "Assassination of Archduke Franz Ferdinand",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand"
+    ]
+  },
+  {
+    "id": "gallipoli-campaign",
+    "title": "The Gallipoli campaign",
+    "year": 1915,
+    "endYear": 1916,
+    "lat": 40.23,
+    "lng": 26.28,
+    "countryIso": "TR",
+    "category": "war",
+    "importance": 3,
+    "summary": "Allied troops, many of them Australian and New Zealand, landed on the Gallipoli peninsula in April 1915 hoping to knock the Ottomans out of the war and open a route to Russia. Ottoman defenders under Mustafa Kemal held the heights, and the Allies evacuated in January 1916 after some half a million casualties on both sides.",
+    "wikipediaTitle": "Gallipoli campaign",
+    "belligerents": [
+      {
+        "name": "Ottoman Empire",
+        "lat": 41.01,
+        "lng": 28.98,
+        "side": "a"
+      },
+      {
+        "name": "British Empire, ANZAC",
+        "lat": 51.51,
+        "lng": -0.13,
+        "side": "b"
+      },
+      {
+        "name": "France",
+        "lat": 48.85,
+        "lng": 2.35,
+        "side": "b"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Gallipoli_campaign"
+    ]
+  },
+  {
+    "id": "battle-of-verdun",
+    "title": "The Battle of Verdun",
+    "year": 1916,
+    "lat": 49.16,
+    "lng": 5.38,
+    "countryIso": "FR",
+    "category": "war",
+    "importance": 4,
+    "summary": "German forces attacked the fortress city of Verdun in February 1916 intending to bleed the French army white; the French held under Pétain and Nivelle and recovered most ground by December. Around 700,000 men were killed or wounded, and Verdun became France's symbol of endurance.",
+    "wikipediaTitle": "Battle of Verdun",
+    "belligerents": [
+      {
+        "name": "German Empire",
+        "lat": 52.52,
+        "lng": 13.4,
+        "side": "a"
+      },
+      {
+        "name": "France",
+        "lat": 48.85,
+        "lng": 2.35,
+        "side": "b"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Battle_of_Verdun"
+    ]
+  },
+  {
+    "id": "russian-revolution-1917",
+    "title": "The Russian Revolution",
+    "year": 1917,
+    "lat": 59.94,
+    "lng": 30.31,
+    "countryIso": "RU",
+    "category": "politics",
+    "importance": 5,
+    "summary": "Bread riots in Petrograd toppled the tsar in March 1917, and in November Lenin's Bolsheviks seized power from the provisional government. A civil war and the creation of the Soviet Union followed, making communism a force in world politics for seventy years.",
+    "wikipediaTitle": "Russian Revolution",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Russian_Revolution"
+    ]
+  },
+  {
+    "id": "us-entry-world-war-i",
+    "title": "The United States enters the First World War",
+    "year": 1917,
+    "lat": 38.9,
+    "lng": -77.04,
+    "countryIso": "US",
+    "category": "war",
+    "importance": 4,
+    "summary": "Congress declared war on Germany on 6 April 1917 after unrestricted submarine warfare and the Zimmermann telegram. American manpower and industry tipped the balance on the Western Front in 1918 and made the United States a decisive world power.",
+    "wikipediaTitle": "American entry into World War I",
+    "sources": [
+      "https://en.wikipedia.org/wiki/American_entry_into_World_War_I"
+    ]
+  },
+  {
+    "id": "armistice-1918",
+    "title": "The Armistice of 11 November 1918",
+    "year": 1918,
+    "lat": 49.43,
+    "lng": 2.91,
+    "countryIso": "FR",
+    "category": "politics",
+    "importance": 5,
+    "summary": "German delegates signed the armistice in a railway carriage at Compiègne, and the guns fell silent at 11 a.m. on 11 November 1918. Around ten million soldiers had died; the Treaty of Versailles the following June imposed terms that embittered German politics.",
+    "wikipediaTitle": "Armistice of 11 November 1918",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Armistice_of_11_November_1918"
+    ]
+  },
+  {
+    "id": "wall-street-crash",
+    "title": "The Wall Street Crash and the Great Depression",
+    "year": 1929,
+    "lat": 40.71,
+    "lng": -74.01,
+    "countryIso": "US",
+    "category": "economy",
+    "importance": 5,
+    "summary": "Share prices collapsed on the New York exchange in late October 1929, and banking failures and trade barriers turned the slump into a worldwide depression. A quarter of American workers were jobless by 1933, and the crisis helped bring Hitler to power in Germany.",
+    "wikipediaTitle": "Wall Street Crash of 1929",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Wall_Street_Crash_of_1929"
+    ]
+  },
+  {
+    "id": "salt-march",
+    "title": "Gandhi's Salt March",
+    "year": 1930,
+    "lat": 20.9,
+    "lng": 72.67,
+    "countryIso": "IN",
+    "category": "politics",
+    "importance": 4,
+    "summary": "Mohandas Gandhi walked 385 kilometres to the sea at Dandi in March and April 1930 and made salt in defiance of the British monopoly. Tens of thousands were arrested in the civil disobedience that followed, and Indian independence became a question of when, not whether.",
+    "wikipediaTitle": "Salt March",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Salt_March"
+    ]
+  },
+  {
+    "id": "spanish-civil-war",
+    "title": "The Spanish Civil War",
+    "year": 1936,
+    "endYear": 1939,
+    "lat": 40.42,
+    "lng": -3.7,
+    "countryIso": "ES",
+    "category": "war",
+    "importance": 3,
+    "summary": "A military rising against the Republic in July 1936 split Spain for nearly three years, with German and Italian forces backing Franco and Soviet aid and international brigades supporting the Republic. Franco's victory in 1939 began a dictatorship that lasted until his death in 1975.",
+    "wikipediaTitle": "Spanish Civil War",
+    "belligerents": [
+      {
+        "name": "Nationalists (Franco)",
+        "lat": 37.89,
+        "lng": -4.78,
+        "side": "a"
+      },
+      {
+        "name": "Spanish Republic",
+        "lat": 40.42,
+        "lng": -3.7,
+        "side": "b"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Spanish_Civil_War"
+    ]
+  },
+  {
+    "id": "hindenburg-disaster",
+    "title": "The Hindenburg disaster",
+    "year": 1937,
+    "lat": 40.03,
+    "lng": -74.35,
+    "countryIso": "US",
+    "category": "disaster",
+    "importance": 2,
+    "summary": "The German airship LZ 129 Hindenburg caught fire while mooring at Lakehurst, New Jersey on 6 May 1937, killing 36 of the 97 people aboard and on the ground. Newsreel film and a live radio commentary made it one of the first disasters the world watched, and passenger airship travel ended with it.",
+    "wikipediaTitle": "Hindenburg disaster",
+    "commonsVideo": "File:1937-05-10 Special Release - Zeppelin Explodes Scores Dead.ogv",
+    "videoCredit": "Universal Newsreel · Public domain",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Hindenburg_disaster"
+    ],
+    "videoUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e4/1937-05-10_Special_Release_-_Zeppelin_Explodes_Scores_Dead.ogv/1937-05-10_Special_Release_-_Zeppelin_Explodes_Scores_Dead.ogv.480p.vp9.webm"
+  },
+  {
+    "id": "invasion-of-poland",
+    "title": "The invasion of Poland",
+    "year": 1939,
+    "lat": 52.23,
+    "lng": 21.01,
+    "countryIso": "PL",
+    "category": "war",
+    "importance": 5,
+    "summary": "German forces attacked Poland on 1 September 1939, with the Soviet Union invading from the east on 17 September under the Molotov–Ribbentrop pact. Britain and France declared war on Germany two days after the attack, beginning the Second World War in Europe.",
+    "wikipediaTitle": "Invasion of Poland",
+    "belligerents": [
+      {
+        "name": "Nazi Germany",
+        "lat": 52.52,
+        "lng": 13.4,
+        "side": "a"
+      },
+      {
+        "name": "Soviet Union",
+        "lat": 55.76,
+        "lng": 37.62,
+        "side": "a"
+      },
+      {
+        "name": "Poland",
+        "lat": 52.23,
+        "lng": 21.01,
+        "side": "b"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Invasion_of_Poland"
+    ]
+  },
+  {
+    "id": "battle-of-britain",
+    "title": "The Battle of Britain",
+    "year": 1940,
+    "lat": 51.51,
+    "lng": -0.13,
+    "countryIso": "GB",
+    "category": "war",
+    "importance": 4,
+    "summary": "Between July and October 1940 RAF Fighter Command, helped by radar and aircraft from occupied Europe and the Commonwealth, defeated the Luftwaffe's attempt to win air superiority over southern England. Hitler postponed the invasion of Britain indefinitely.",
+    "wikipediaTitle": "Battle of Britain",
+    "belligerents": [
+      {
+        "name": "Nazi Germany",
+        "lat": 52.52,
+        "lng": 13.4,
+        "side": "a"
+      },
+      {
+        "name": "United Kingdom",
+        "lat": 51.51,
+        "lng": -0.13,
+        "side": "b"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Battle_of_Britain"
+    ]
+  },
+  {
+    "id": "attack-on-pearl-harbor",
+    "title": "The attack on Pearl Harbor",
+    "year": 1941,
+    "lat": 21.36,
+    "lng": -157.95,
+    "countryIso": "US",
+    "category": "war",
+    "importance": 5,
+    "summary": "Japanese carrier aircraft struck the US Pacific Fleet at Pearl Harbor on 7 December 1941, killing over 2,400 people and sinking or damaging eighteen ships. The United States declared war the next day, and Germany declared war on America three days later.",
+    "wikipediaTitle": "Attack on Pearl Harbor",
+    "belligerents": [
+      {
+        "name": "Empire of Japan",
+        "lat": 35.68,
+        "lng": 139.69,
+        "side": "a"
+      },
+      {
+        "name": "United States",
+        "lat": 38.9,
+        "lng": -77.04,
+        "side": "b"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Attack_on_Pearl_Harbor"
+    ]
+  },
+  {
+    "id": "operation-barbarossa",
+    "title": "Operation Barbarossa",
+    "year": 1941,
+    "lat": 53.9,
+    "lng": 27.57,
+    "countryIso": "BY",
+    "category": "war",
+    "importance": 5,
+    "summary": "Germany and its allies invaded the Soviet Union along a 2,900-kilometre front on 22 June 1941, the largest land invasion ever mounted. The advance stalled outside Moscow in December, and the Eastern Front became the war's deadliest theatre.",
+    "wikipediaTitle": "Operation Barbarossa",
+    "belligerents": [
+      {
+        "name": "Nazi Germany",
+        "lat": 52.52,
+        "lng": 13.4,
+        "side": "a"
+      },
+      {
+        "name": "Soviet Union",
+        "lat": 55.76,
+        "lng": 37.62,
+        "side": "b"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Operation_Barbarossa"
+    ]
+  },
+  {
+    "id": "battle-of-stalingrad",
+    "title": "The Battle of Stalingrad",
+    "year": 1942,
+    "endYear": 1943,
+    "lat": 48.71,
+    "lng": 44.51,
+    "countryIso": "RU",
+    "category": "war",
+    "importance": 5,
+    "summary": "Soviet forces held the ruins of Stalingrad through the autumn of 1942, then encircled the German Sixth Army, which surrendered on 2 February 1943. Nearly two million were killed, wounded or captured, and the strategic initiative on the Eastern Front passed to the Soviet Union for good.",
+    "wikipediaTitle": "Battle of Stalingrad",
+    "belligerents": [
+      {
+        "name": "Nazi Germany",
+        "lat": 52.52,
+        "lng": 13.4,
+        "side": "a"
+      },
+      {
+        "name": "Soviet Union",
+        "lat": 55.76,
+        "lng": 37.62,
+        "side": "b"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Battle_of_Stalingrad"
+    ]
+  },
+  {
+    "id": "guadalcanal-campaign",
+    "title": "The Guadalcanal campaign",
+    "year": 1942,
+    "endYear": 1943,
+    "lat": -9.43,
+    "lng": 159.95,
+    "countryIso": "SB",
+    "category": "war",
+    "importance": 3,
+    "summary": "US Marines landed on Guadalcanal in the Solomon Islands in August 1942 and held the airfield through six months of jungle and naval fighting. Japan evacuated in February 1943, its first loss of held ground in the Pacific and the start of the Allied advance north.",
+    "wikipediaTitle": "Guadalcanal campaign",
+    "belligerents": [
+      {
+        "name": "United States",
+        "lat": 38.9,
+        "lng": -77.04,
+        "side": "a"
+      },
+      {
+        "name": "Empire of Japan",
+        "lat": 35.68,
+        "lng": 139.69,
+        "side": "b"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Guadalcanal_campaign"
+    ]
+  },
+  {
+    "id": "d-day-normandy-landings",
+    "title": "D-Day: the Normandy landings",
+    "year": 1944,
+    "lat": 49.34,
+    "lng": -0.6,
+    "countryIso": "FR",
+    "category": "war",
+    "importance": 5,
+    "summary": "On 6 June 1944 some 156,000 American, British and Canadian troops landed on five Normandy beaches in the largest amphibious operation ever attempted. The Allies established a second front in western Europe and liberated Paris that August.",
+    "wikipediaTitle": "Normandy landings",
+    "commonsVideo": "File:D-Day 1944 Office of War Information.webm",
+    "videoCredit": "US Office of War Information · Public domain",
+    "belligerents": [
+      {
+        "name": "United States",
+        "lat": 38.9,
+        "lng": -77.04,
+        "side": "a"
+      },
+      {
+        "name": "United Kingdom",
+        "lat": 51.51,
+        "lng": -0.13,
+        "side": "a"
+      },
+      {
+        "name": "Canada",
+        "lat": 45.42,
+        "lng": -75.7,
+        "side": "a"
+      },
+      {
+        "name": "Nazi Germany",
+        "lat": 52.52,
+        "lng": 13.4,
+        "side": "b"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Normandy_landings"
+    ],
+    "videoUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/12/D-Day_1944_Office_of_War_Information.webm/D-Day_1944_Office_of_War_Information.webm.480p.vp9.webm"
+  },
+  {
+    "id": "atomic-bombing-of-hiroshima",
+    "title": "The atomic bombing of Hiroshima",
+    "year": 1945,
+    "lat": 34.39,
+    "lng": 132.45,
+    "countryIso": "JP",
+    "category": "war",
+    "importance": 5,
+    "summary": "A United States B-29 dropped a uranium bomb on Hiroshima on 6 August 1945, killing tens of thousands instantly and around 140,000 by the end of the year; Nagasaki was bombed three days later. Japan surrendered on 15 August, and the nuclear age began.",
+    "wikipediaTitle": "Atomic bombings of Hiroshima and Nagasaki",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Atomic_bombings_of_Hiroshima_and_Nagasaki"
+    ]
+  },
+  {
+    "id": "liberation-of-auschwitz",
+    "title": "The liberation of Auschwitz",
+    "year": 1945,
+    "lat": 50.03,
+    "lng": 19.2,
+    "countryIso": "PL",
+    "category": "disaster",
+    "importance": 5,
+    "summary": "Soviet troops reached the Auschwitz-Birkenau camp complex in occupied Poland on 27 January 1945 and found about 7,000 surviving prisoners. More than a million people, the overwhelming majority of them Jews, were murdered there as part of the Holocaust, in which Nazi Germany killed six million European Jews. The date is now International Holocaust Remembrance Day.",
+    "wikipediaTitle": "Auschwitz concentration camp",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Auschwitz_concentration_camp"
+    ]
+  },
+  {
+    "id": "partition-of-india",
+    "title": "Independence and partition of India",
+    "year": 1947,
+    "lat": 28.61,
+    "lng": 77.21,
+    "countryIso": "IN",
+    "category": "politics",
+    "importance": 5,
+    "summary": "British India became independent on 14–15 August 1947 and was divided into India and Pakistan along hastily drawn lines. Between ten and twenty million people fled across the new borders and hundreds of thousands were killed in the violence.",
+    "wikipediaTitle": "Partition of India",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Partition_of_India"
+    ]
+  },
+  {
+    "id": "berlin-blockade",
+    "title": "The Berlin Blockade and airlift",
+    "year": 1948,
+    "endYear": 1949,
+    "lat": 52.47,
+    "lng": 13.4,
+    "countryIso": "DE",
+    "category": "politics",
+    "importance": 4,
+    "summary": "The Soviet Union cut road and rail links to West Berlin in June 1948, and Western aircraft flew in food and coal for eleven months until the blockade was lifted. The crisis hardened the division of Germany and led directly to the founding of NATO.",
+    "wikipediaTitle": "Berlin Blockade",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Berlin_Blockade"
+    ]
+  },
+  {
+    "id": "founding-of-israel",
+    "title": "The founding of Israel and the 1948 war",
+    "year": 1948,
+    "lat": 32.08,
+    "lng": 34.78,
+    "countryIso": "IL",
+    "category": "politics",
+    "importance": 5,
+    "summary": "David Ben-Gurion declared the State of Israel in Tel Aviv on 14 May 1948 as the British mandate ended, and neighbouring Arab states attacked the next day. Israel survived and expanded its territory, while around 700,000 Palestinians fled or were expelled in what Palestinians call the Nakba.",
+    "wikipediaTitle": "1948 Arab–Israeli War",
+    "sources": [
+      "https://en.wikipedia.org/wiki/1948_Arab%E2%80%93Israeli_War"
+    ]
+  },
+  {
+    "id": "chinese-revolution-1949",
+    "title": "The founding of the People's Republic of China",
+    "year": 1949,
+    "lat": 39.91,
+    "lng": 116.39,
+    "countryIso": "CN",
+    "category": "politics",
+    "importance": 5,
+    "summary": "Mao Zedong proclaimed the People's Republic from Tiananmen on 1 October 1949 after the Communists won the civil war; the Nationalists withdrew to Taiwan. A quarter of humanity came under communist rule, and the Great Leap Forward and Cultural Revolution followed.",
+    "wikipediaTitle": "Chinese Communist Revolution",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Chinese_Communist_Revolution"
+    ]
+  },
+  {
+    "id": "korean-war",
+    "title": "The Korean War",
+    "year": 1950,
+    "endYear": 1953,
+    "lat": 37.57,
+    "lng": 126.98,
+    "countryIso": "KR",
+    "category": "war",
+    "importance": 4,
+    "summary": "North Korean forces crossed the 38th parallel in June 1950; a UN coalition led by the United States pushed back, and Chinese armies intervened that November. The armistice of July 1953 left the peninsula divided along roughly the original line, with no peace treaty to this day.",
+    "wikipediaTitle": "Korean War",
+    "belligerents": [
+      {
+        "name": "North Korea",
+        "lat": 39.04,
+        "lng": 125.75,
+        "side": "a"
+      },
+      {
+        "name": "China",
+        "lat": 39.9,
+        "lng": 116.41,
+        "side": "a"
+      },
+      {
+        "name": "South Korea",
+        "lat": 37.57,
+        "lng": 126.98,
+        "side": "b"
+      },
+      {
+        "name": "United States and UN forces",
+        "lat": 38.9,
+        "lng": -77.04,
+        "side": "b"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Korean_War"
+    ]
+  },
+  {
+    "id": "suez-crisis",
+    "title": "The Suez Crisis",
+    "year": 1956,
+    "lat": 30,
+    "lng": 32.55,
+    "countryIso": "EG",
+    "category": "war",
+    "importance": 4,
+    "summary": "After Nasser nationalised the Suez Canal, Britain, France and Israel attacked Egypt in October 1956 but withdrew under American and Soviet pressure. The humiliation ended Britain and France's pretension to act as independent world powers and made Nasser a hero of Arab nationalism.",
+    "wikipediaTitle": "Suez Crisis",
+    "belligerents": [
+      {
+        "name": "United Kingdom",
+        "lat": 51.51,
+        "lng": -0.13,
+        "side": "a"
+      },
+      {
+        "name": "France",
+        "lat": 48.85,
+        "lng": 2.35,
+        "side": "a"
+      },
+      {
+        "name": "Israel",
+        "lat": 31.78,
+        "lng": 35.22,
+        "side": "a"
+      },
+      {
+        "name": "Egypt",
+        "lat": 30.04,
+        "lng": 31.24,
+        "side": "b"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Suez_Crisis"
+    ]
+  },
+  {
+    "id": "ghana-independence",
+    "title": "Ghana's independence",
+    "year": 1957,
+    "lat": 5.6,
+    "lng": -0.19,
+    "countryIso": "GH",
+    "category": "politics",
+    "importance": 4,
+    "summary": "The Gold Coast became Ghana on 6 March 1957 under Kwame Nkrumah, the first sub-Saharan colony to win independence. Nkrumah's pan-Africanism inspired a wave of decolonisation that freed most of the continent within a decade.",
+    "wikipediaTitle": "Ghana",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ghana"
+    ]
+  },
+  {
+    "id": "congo-independence-crisis",
+    "title": "Congo's independence and the death of Lumumba",
+    "year": 1960,
+    "lat": -4.44,
+    "lng": 15.27,
+    "countryIso": "CD",
+    "category": "politics",
+    "importance": 3,
+    "summary": "The Belgian Congo became independent on 30 June 1960 with Patrice Lumumba as prime minister, but Katanga seceded within days and Lumumba was murdered in January 1961 with Belgian and American complicity. Mobutu's thirty-two-year dictatorship followed.",
+    "wikipediaTitle": "Congo Crisis",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Congo_Crisis"
+    ]
+  },
+  {
+    "id": "algerian-independence",
+    "title": "Algerian independence",
+    "year": 1962,
+    "lat": 36.75,
+    "lng": 3.06,
+    "countryIso": "DZ",
+    "category": "war",
+    "importance": 3,
+    "summary": "After nearly eight years of war between the FLN and French forces, the Évian accords of March 1962 led to independence that July. Several hundred thousand Algerians died, torture by the French army became a scandal in Paris, and the conflict brought down the Fourth Republic.",
+    "wikipediaTitle": "Algerian War",
+    "belligerents": [
+      {
+        "name": "National Liberation Front (FLN)",
+        "lat": 36.75,
+        "lng": 3.06,
+        "side": "a"
+      },
+      {
+        "name": "France",
+        "lat": 48.85,
+        "lng": 2.35,
+        "side": "b"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Algerian_War"
+    ]
+  },
+  {
+    "id": "cuban-missile-crisis",
+    "title": "The Cuban Missile Crisis",
+    "year": 1962,
+    "lat": 22.4,
+    "lng": -83.7,
+    "countryIso": "CU",
+    "category": "politics",
+    "importance": 5,
+    "summary": "American reconnaissance found Soviet nuclear missiles in Cuba in October 1962; Kennedy imposed a naval quarantine and after thirteen days Khrushchev agreed to remove them, with US missiles quietly withdrawn from Turkey in return. It was the closest the Cold War came to nuclear war.",
+    "wikipediaTitle": "Cuban Missile Crisis",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Cuban_Missile_Crisis"
+    ]
+  },
+  {
+    "id": "samoa-independence",
+    "title": "Samoa becomes independent",
+    "year": 1962,
+    "lat": -13.83,
+    "lng": -171.77,
+    "countryIso": "WS",
+    "category": "politics",
+    "importance": 2,
+    "summary": "Western Samoa gained independence from New Zealand administration on 1 January 1962, the first Pacific island country to do so. Its constitution blends parliamentary government with the authority of matai, the traditional family chiefs.",
+    "wikipediaTitle": "Samoa",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Samoa"
+    ]
+  },
+  {
+    "id": "singapore-independence",
+    "title": "Singapore separates from Malaysia",
+    "year": 1965,
+    "lat": 1.35,
+    "lng": 103.82,
+    "countryIso": "SG",
+    "category": "politics",
+    "importance": 2,
+    "summary": "Singapore was expelled from the Federation of Malaysia on 9 August 1965 after two years of political and communal friction. Under Lee Kuan Yew the small island state turned to manufacturing, shipping and finance and became one of the richest countries in Asia.",
+    "wikipediaTitle": "Singapore in Malaysia",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Singapore_in_Malaysia"
+    ]
+  },
+  {
+    "id": "apollo-11",
+    "title": "Apollo 11 lands on the Moon",
+    "year": 1969,
+    "lat": 28.57,
+    "lng": -80.65,
+    "countryIso": "US",
+    "category": "science",
+    "importance": 5,
+    "summary": "Neil Armstrong and Buzz Aldrin landed the lunar module Eagle in the Sea of Tranquility on 20 July 1969 while Michael Collins orbited above. Some 600 million people watched the first steps on another world, eight years after Kennedy set the goal.",
+    "wikipediaTitle": "Apollo 11",
+    "commonsVideo": "File:Partially Restored Apollo 11 Video.ogv",
+    "videoCredit": "NASA · Public domain",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Apollo_11"
+    ],
+    "videoUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/56/Partially_Restored_Apollo_11_Video.ogv/Partially_Restored_Apollo_11_Video.ogv.480p.vp9.webm"
+  },
+  {
+    "id": "fiji-independence",
+    "title": "Fiji becomes independent",
+    "year": 1970,
+    "lat": -18.14,
+    "lng": 178.44,
+    "countryIso": "FJ",
+    "category": "politics",
+    "importance": 2,
+    "summary": "Fiji gained independence from Britain on 10 October 1970 after 96 years of colonial rule. Tension between Indigenous Fijians and the Indo-Fijian community descended from indentured labourers has since produced four coups.",
+    "wikipediaTitle": "Fiji",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Fiji"
+    ]
+  },
+  {
+    "id": "bangladesh-independence",
+    "title": "The independence of Bangladesh",
+    "year": 1971,
+    "lat": 23.81,
+    "lng": 90.41,
+    "countryIso": "BD",
+    "category": "war",
+    "importance": 3,
+    "summary": "East Pakistan declared independence in March 1971 and the Pakistani army's crackdown killed hundreds of thousands and drove ten million refugees into India. Indian intervention in December ended the war and Bangladesh emerged as a sovereign state.",
+    "wikipediaTitle": "Bangladesh Liberation War",
+    "belligerents": [
+      {
+        "name": "Bangladesh and India",
+        "lat": 23.81,
+        "lng": 90.41,
+        "side": "a"
+      },
+      {
+        "name": "Pakistan",
+        "lat": 33.69,
+        "lng": 73.05,
+        "side": "b"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bangladesh_Liberation_War"
+    ]
+  },
+  {
+    "id": "chile-coup-1973",
+    "title": "The Chilean coup of 1973",
+    "year": 1973,
+    "lat": -33.44,
+    "lng": -70.65,
+    "countryIso": "CL",
+    "category": "politics",
+    "importance": 3,
+    "summary": "The armed forces under Augusto Pinochet bombarded the presidential palace in Santiago on 11 September 1973; President Salvador Allende died during the assault. The dictatorship that followed killed or disappeared over 3,000 people and imposed radical free-market reforms until 1990.",
+    "wikipediaTitle": "1973 Chilean coup d'état",
+    "sources": [
+      "https://en.wikipedia.org/wiki/1973_Chilean_coup_d%27%C3%A9tat"
+    ]
+  },
+  {
+    "id": "fall-of-saigon",
+    "title": "The fall of Saigon ends the Vietnam War",
+    "year": 1975,
+    "lat": 10.82,
+    "lng": 106.63,
+    "countryIso": "VN",
+    "category": "war",
+    "importance": 4,
+    "summary": "North Vietnamese tanks entered Saigon on 30 April 1975, two years after American combat troops withdrew, reunifying Vietnam under Hanoi. The war killed more than two million Vietnamese and some 58,000 Americans and shaped a generation of US politics.",
+    "wikipediaTitle": "Fall of Saigon",
+    "belligerents": [
+      {
+        "name": "North Vietnam",
+        "lat": 21.03,
+        "lng": 105.85,
+        "side": "a"
+      },
+      {
+        "name": "South Vietnam",
+        "lat": 10.82,
+        "lng": 106.63,
+        "side": "b"
+      },
+      {
+        "name": "United States",
+        "lat": 38.9,
+        "lng": -77.04,
+        "side": "b"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Fall_of_Saigon"
+    ]
+  },
+  {
+    "id": "papua-new-guinea-independence",
+    "title": "Papua New Guinea becomes independent",
+    "year": 1975,
+    "lat": -9.44,
+    "lng": 147.18,
+    "countryIso": "PG",
+    "category": "politics",
+    "importance": 2,
+    "summary": "Papua New Guinea gained independence from Australia on 16 September 1975 under Michael Somare. The country is one of the most linguistically diverse on earth, with over 800 languages spoken across its highlands and islands.",
+    "wikipediaTitle": "Papua New Guinea",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Papua_New_Guinea"
+    ]
+  },
+  {
+    "id": "iranian-revolution",
+    "title": "The Iranian Revolution",
+    "year": 1979,
+    "lat": 35.69,
+    "lng": 51.39,
+    "countryIso": "IR",
+    "category": "religion",
+    "importance": 5,
+    "summary": "Mass protests drove the shah from Iran in January 1979 and Ayatollah Khomeini returned from exile to found an Islamic republic confirmed by referendum that April. The hostage crisis at the US embassy followed, and the region's politics have turned on the revolution ever since.",
+    "wikipediaTitle": "Iranian Revolution",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Iranian_Revolution"
+    ]
+  },
+  {
+    "id": "chernobyl-disaster",
+    "title": "The Chernobyl disaster",
+    "year": 1986,
+    "lat": 51.39,
+    "lng": 30.1,
+    "countryIso": "UA",
+    "category": "disaster",
+    "importance": 4,
+    "summary": "Reactor four at the Chernobyl plant in Soviet Ukraine exploded during a test on 26 April 1986, spreading radioactive fallout across Europe. Over 100,000 people were permanently evacuated, and the cover-up damaged trust in the Soviet system at a critical moment.",
+    "wikipediaTitle": "Chernobyl disaster",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Chernobyl_disaster"
+    ]
+  },
+  {
+    "id": "philippine-people-power",
+    "title": "The People Power Revolution",
+    "year": 1986,
+    "lat": 14.59,
+    "lng": 121.06,
+    "countryIso": "PH",
+    "category": "politics",
+    "importance": 2,
+    "summary": "Millions of Filipinos filled EDSA in Manila in February 1986 after a stolen election, and the army turned against Ferdinand Marcos, who fled into exile. Corazon Aquino became president, and the largely non-violent template was copied from Seoul to Eastern Europe.",
+    "wikipediaTitle": "People Power Revolution",
+    "sources": [
+      "https://en.wikipedia.org/wiki/People_Power_Revolution"
+    ]
+  },
+  {
+    "id": "tear-down-this-wall",
+    "title": "Reagan's \"Tear down this wall\" speech",
+    "year": 1987,
+    "lat": 52.52,
+    "lng": 13.38,
+    "countryIso": "DE",
+    "category": "politics",
+    "importance": 3,
+    "summary": "Speaking at the Brandenburg Gate on 12 June 1987, Ronald Reagan challenged Mikhail Gorbachev to open the gate and tear down the Berlin Wall. The line drew little notice at the time but became the defining image of Western pressure as the Cold War wound down.",
+    "wikipediaTitle": "Tear down this wall!",
+    "commonsVideo": "File:President Ronald Reagan's Speech at the Berlin Wall, June 12, 1987.webm",
+    "videoCredit": "Reagan Library · CC BY 3.0",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Tear_down_this_wall!"
+    ],
+    "videoUrl": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/13/President_Ronald_Reagan%27s_Speech_at_the_Berlin_Wall%2C_June_12%2C_1987.webm/President_Ronald_Reagan%27s_Speech_at_the_Berlin_Wall%2C_June_12%2C_1987.webm.480p.vp9.webm"
+  },
+  {
+    "id": "fall-of-the-berlin-wall",
+    "title": "The fall of the Berlin Wall",
+    "year": 1989,
+    "lat": 52.52,
+    "lng": 13.38,
+    "countryIso": "DE",
+    "category": "politics",
+    "importance": 5,
+    "summary": "A muddled East German announcement on the evening of 9 November 1989 sent crowds to the crossings, and the guards opened the gates. The wall that had divided Berlin since 1961 came down, and Germany was reunified within a year.",
+    "wikipediaTitle": "Fall of the Berlin Wall",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Fall_of_the_Berlin_Wall"
+    ]
+  },
+  {
+    "id": "mandela-released",
+    "title": "Nelson Mandela is released",
+    "year": 1990,
+    "lat": -33.93,
+    "lng": 18.42,
+    "countryIso": "ZA",
+    "category": "politics",
+    "importance": 4,
+    "summary": "Nelson Mandela walked free from Victor Verster prison on 11 February 1990 after 27 years, days after F. W. de Klerk unbanned the ANC. Negotiations followed that dismantled apartheid law and led to the first democratic election four years later.",
+    "wikipediaTitle": "Nelson Mandela",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Nelson_Mandela"
+    ]
+  },
+  {
+    "id": "dissolution-of-the-ussr",
+    "title": "The dissolution of the Soviet Union",
+    "year": 1991,
+    "lat": 55.75,
+    "lng": 37.62,
+    "countryIso": "RU",
+    "category": "politics",
+    "importance": 5,
+    "summary": "After a failed August coup against Gorbachev, the republics declared independence and the Soviet Union was formally dissolved on 26 December 1991. Fifteen new states emerged, the Cold War ended, and Russia inherited the nuclear arsenal and UN seat.",
+    "wikipediaTitle": "Dissolution of the Soviet Union",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union"
+    ]
+  },
+  {
+    "id": "world-wide-web",
+    "title": "The World Wide Web opens to the public",
+    "year": 1991,
+    "lat": 46.23,
+    "lng": 6.06,
+    "countryIso": "CH",
+    "category": "science",
+    "importance": 5,
+    "summary": "Tim Berners-Lee, working at CERN near Geneva, put the first website online in 1991 and CERN placed the web in the public domain in 1993. Hypertext over the internet reshaped commerce, politics and daily life within a generation.",
+    "wikipediaTitle": "World Wide Web",
+    "sources": [
+      "https://en.wikipedia.org/wiki/World_Wide_Web"
+    ]
+  },
+  {
+    "id": "yugoslav-wars-sarajevo",
+    "title": "The Yugoslav wars and the siege of Sarajevo",
+    "year": 1992,
+    "endYear": 1995,
+    "lat": 43.86,
+    "lng": 18.42,
+    "countryIso": "BA",
+    "category": "war",
+    "importance": 4,
+    "summary": "Yugoslavia broke apart in wars from 1991, and Sarajevo was besieged for nearly four years, the longest siege of a capital in modern warfare. Around 100,000 died in Bosnia, including over 8,000 Bosniak men and boys murdered at Srebrenica in July 1995.",
+    "wikipediaTitle": "Bosnian War",
+    "belligerents": [
+      {
+        "name": "Republika Srpska and Serbia",
+        "lat": 44.79,
+        "lng": 20.45,
+        "side": "a"
+      },
+      {
+        "name": "Bosnia and Herzegovina",
+        "lat": 43.86,
+        "lng": 18.42,
+        "side": "b"
+      },
+      {
+        "name": "Croatia",
+        "lat": 45.81,
+        "lng": 15.98,
+        "side": "b"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bosnian_War"
+    ]
+  },
+  {
+    "id": "end-of-apartheid",
+    "title": "South Africa's first democratic election",
+    "year": 1994,
+    "lat": -25.75,
+    "lng": 28.19,
+    "countryIso": "ZA",
+    "category": "politics",
+    "importance": 5,
+    "summary": "South Africans of all races voted together for the first time on 27 April 1994, and Nelson Mandela was inaugurated as president in Pretoria in May. A Truth and Reconciliation Commission followed, trading amnesty for public testimony about apartheid-era crimes.",
+    "wikipediaTitle": "1994 South African general election",
+    "sources": [
+      "https://en.wikipedia.org/wiki/1994_South_African_general_election"
+    ]
+  },
+  {
+    "id": "rwandan-genocide",
+    "title": "The Rwandan genocide",
+    "year": 1994,
+    "lat": -1.95,
+    "lng": 30.06,
+    "countryIso": "RW",
+    "category": "disaster",
+    "importance": 5,
+    "summary": "Between April and July 1994 extremist Hutu militias and state forces murdered around 800,000 Tutsi and moderate Hutu in about a hundred days while UN forces stood by under a limited mandate. The RPF's victory ended the killing and sent millions of refugees into neighbouring Zaire.",
+    "wikipediaTitle": "Rwandan genocide",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Rwandan_genocide"
+    ]
+  },
+  {
+    "id": "hong-kong-handover",
+    "title": "The handover of Hong Kong",
+    "year": 1997,
+    "lat": 22.32,
+    "lng": 114.17,
+    "countryIso": "HK",
+    "category": "politics",
+    "importance": 3,
+    "summary": "Britain returned Hong Kong to Chinese sovereignty at midnight on 1 July 1997 under a promise of \"one country, two systems\" for fifty years. The territory's separate courts and freedoms were sharply curtailed by the national security law of 2020.",
+    "wikipediaTitle": "Handover of Hong Kong",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Handover_of_Hong_Kong"
+    ]
+  },
+  {
+    "id": "september-11-attacks",
+    "title": "The September 11 attacks",
+    "year": 2001,
+    "lat": 40.71,
+    "lng": -74.01,
+    "countryIso": "US",
+    "category": "disaster",
+    "importance": 5,
+    "summary": "Al-Qaeda hijackers flew airliners into the World Trade Center and the Pentagon on 11 September 2001, killing 2,977 people. The United States invaded Afghanistan within weeks and built a global counter-terrorism apparatus that reshaped travel, surveillance and law.",
+    "wikipediaTitle": "September 11 attacks",
+    "sources": [
+      "https://en.wikipedia.org/wiki/September_11_attacks"
+    ]
+  },
+  {
+    "id": "indian-ocean-tsunami",
+    "title": "The Indian Ocean tsunami",
+    "year": 2004,
+    "lat": 5.55,
+    "lng": 95.32,
+    "countryIso": "ID",
+    "category": "disaster",
+    "importance": 4,
+    "summary": "A magnitude 9.1 earthquake off Sumatra on 26 December 2004 sent waves across the Indian Ocean, killing around 228,000 people in fourteen countries. Aceh was worst hit, and the disaster prompted the first basin-wide tsunami warning system.",
+    "wikipediaTitle": "2004 Indian Ocean earthquake and tsunami",
+    "sources": [
+      "https://en.wikipedia.org/wiki/2004_Indian_Ocean_earthquake_and_tsunami"
+    ]
+  },
+  {
+    "id": "arab-spring",
+    "title": "The Arab Spring",
+    "year": 2011,
+    "lat": 34.74,
+    "lng": 10.76,
+    "countryIso": "TN",
+    "category": "politics",
+    "importance": 5,
+    "summary": "The self-immolation of Mohamed Bouazizi in Sidi Bouzid in December 2010 set off protests that toppled rulers in Tunisia, Egypt, Libya and Yemen. Tunisia built a democracy, while Syria, Libya and Yemen fell into wars still unresolved.",
+    "wikipediaTitle": "Arab Spring",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Arab_Spring"
+    ]
+  },
+  {
+    "id": "covid-19-pandemic",
+    "title": "The COVID-19 pandemic",
+    "year": 2020,
+    "lat": 30.59,
+    "lng": 114.31,
+    "countryIso": "CN",
+    "category": "disaster",
+    "importance": 5,
+    "summary": "A novel coronavirus identified in Wuhan in late 2019 spread worldwide; the WHO declared a pandemic on 11 March 2020. Billions were placed under restrictions, recorded deaths passed seven million, and vaccines were developed and deployed in under a year.",
+    "wikipediaTitle": "COVID-19 pandemic",
+    "sources": [
+      "https://en.wikipedia.org/wiki/COVID-19_pandemic"
+    ]
+  },
+  {
+    "id": "russian-invasion-of-ukraine",
+    "title": "Russia's full-scale invasion of Ukraine",
+    "year": 2022,
+    "lat": 50.45,
+    "lng": 30.52,
+    "countryIso": "UA",
+    "category": "war",
+    "importance": 5,
+    "summary": "Russian forces attacked Ukraine from the north, east and south on 24 February 2022, eight years after the annexation of Crimea. The assault on Kyiv failed, the largest war in Europe since 1945 followed, and NATO expanded to Finland and Sweden.",
+    "wikipediaTitle": "Russian invasion of Ukraine",
+    "belligerents": [
+      {
+        "name": "Russia",
+        "lat": 55.75,
+        "lng": 37.62,
+        "side": "a"
+      },
+      {
+        "name": "Ukraine",
+        "lat": 50.45,
+        "lng": 30.52,
+        "side": "b"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Russian_invasion_of_Ukraine"
+    ]
+  }
+]
