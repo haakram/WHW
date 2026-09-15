@@ -16,7 +16,7 @@ Click any pin for the story, with live text and pictures from Wikipedia and Wiki
 
 </div>
 
-![World History Web: the globe with the borders of 1945](docs/screenshot.png)
+![World History Web: the globe with the borders of 1945](.github/screenshot.png)
 
 ## What it does
 

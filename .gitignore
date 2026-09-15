@@ -58,3 +58,4 @@ public/data/borders/
 /docs/*.md
 /.claude/
 /skills-lock.json
+.vercel
