@@ -1,0 +1,83 @@
+{
+  "name": "world-history-web",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Interactive 3D atlas of world history (3000 BC to today): a react-globe.gl globe with a non-linear timeline, historical borders, battle arcs, story tours, and live Wikipedia/Wikimedia content.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/haakram/WHW.git"
+  },
+  "keywords": [
+    "globe",
+    "history",
+    "timeline",
+    "three.js",
+    "react-globe.gl",
+    "nextjs",
+    "wikipedia",
+    "wikidata",
+    "geojson",
+    "historical-maps"
+  ],
+  "homepage": "https://github.com/haakram/WHW#readme",
+  "engines": {
+    "node": ">=20"
+  },
+  "packageManager": "pnpm@10.33.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "pnpm data:borders && next build",
+    "start": "next start",
+    "lint": "eslint",
+    "lint:strict": "eslint src/ scripts/ tests/ --max-warnings 0",
+    "typecheck": "next typegen && tsc --noEmit",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "data:borders": "tsx scripts/fetch-borders.ts",
+    "data:countries": "tsx scripts/fetch-countries.ts",
+    "data:videos": "tsx scripts/resolve-videos.ts",
+    "data:textures": "tsx scripts/copy-textures.ts",
+    "data:all": "pnpm data:textures && pnpm data:countries && pnpm data:videos && pnpm data:borders",
+    "prepare": "husky || true"
+  },
+  "dependencies": {
+    "next": "16.3.5",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "react-globe.gl": "2.38.0",
+    "zod": "4.6.5"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/three": "0.186.0",
+    "@vitejs/plugin-react": "^6.1.0",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.5",
+    "husky": "^9.1.7",
+    "jsdom": "^27.0.0",
+    "lint-staged": "^17.3.0",
+    "mapshaper": "^0.6.110",
+    "prettier": "^3.9.6",
+    "tailwindcss": "^4",
+    "tsx": "^4.23.12",
+    "typescript": "^5",
+    "vite-tsconfig-paths": "^5.1.4",
+    "vitest": "^4.1.11"
+  },
+  "lint-staged": {
+    "*.{ts,tsx,mjs,mts,css,md,json}": "prettier --write",
+    "*.{ts,tsx}": "eslint --max-warnings 0"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@tailwindcss/oxide",
+      "sharp",
+      "unrs-resolver"
+    ]
+  }
+}

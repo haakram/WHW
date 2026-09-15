@@ -1,0 +1,13 @@
+[
+  { "id": "bronze-age", "name": "Bronze Age", "from": -3000, "to": -1200, "tone": "era-bronze" },
+  { "id": "iron-age", "name": "Iron Age & first empires", "from": -1200, "to": -500, "tone": "era-iron" },
+  { "id": "classical", "name": "Classical antiquity", "from": -500, "to": 476, "tone": "era-classical" },
+  { "id": "early-medieval", "name": "Early Middle Ages", "from": 476, "to": 1000, "tone": "era-early-medieval" },
+  { "id": "high-medieval", "name": "High & Late Middle Ages", "from": 1000, "to": 1453, "tone": "era-high-medieval" },
+  { "id": "early-modern", "name": "Early modern era", "from": 1453, "to": 1789, "tone": "era-early-modern" },
+  { "id": "revolutions", "name": "Age of Revolutions", "from": 1789, "to": 1871, "tone": "era-revolutions" },
+  { "id": "imperial", "name": "Industrial & imperial age", "from": 1871, "to": 1914, "tone": "era-imperial" },
+  { "id": "world-wars", "name": "World wars", "from": 1914, "to": 1945, "tone": "era-world-wars" },
+  { "id": "cold-war", "name": "Cold War & decolonisation", "from": 1945, "to": 1991, "tone": "era-cold-war" },
+  { "id": "contemporary", "name": "Contemporary world", "from": 1991, "to": 2026, "tone": "era-contemporary" }
+]
