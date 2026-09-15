@@ -7,7 +7,7 @@
 Drag the timeline and watch borders shift, empires rise and fall, and battles animate across a globe.
 Click any pin for the story, with live text and pictures from Wikipedia and Wikimedia Commons.
 
-[**Live demo**](https://whw.vercel.app) · [Quick start](#quick-start) · [Use the globe in your own app](#use-the-globe-in-your-own-app) · [Add history](#add-history) · [Data & licenses](#data--licenses)
+[**Live demo**](https://whw-ten.vercel.app) · [Quick start](#quick-start) · [Use the globe in your own app](#use-the-globe-in-your-own-app) · [Add history](#add-history) · [Data & licenses](#data--licenses)
 
 [![CI](https://github.com/haakram/WHW/actions/workflows/ci.yml/badge.svg)](https://github.com/haakram/WHW/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-2f6f5e.svg)](LICENSE)
