@@ -18,6 +18,10 @@ Click any pin for the story, with live text and pictures from Wikipedia and Wiki
 
 ![World History Web: the globe with the borders of 1945](.github/screenshot.png)
 
+During a war, arcs run between the belligerents while the year is inside its span. Here, 1942:
+
+![Battle arcs over Europe in 1942, borders of 1920](.github/screenshot-1942.png)
+
 ## What it does
 
 - **A non-linear timeline** from 3000 BC to 2026. Antiquity moves in 50-year steps, the last 500 years move one year at a time, so the same slider covers Hammurabi and yesterday.
