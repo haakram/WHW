@@ -51,8 +51,16 @@ async function main(): Promise<void> {
     try {
       const raw = await fetchSnapshot(year);
       const simplified = await simplify(raw);
-      const parsed = BorderSnapshotSchema.parse(JSON.parse(simplified));
-      const features = parsed.features.filter((f) => f.geometry && f.geometry.coordinates);
+      // Some snapshots carry rows with null or non-polygon geometry; drop those before validating.
+      const raw2 = JSON.parse(simplified) as { features?: { geometry?: { type?: string } | null }[] };
+      const polygonsOnly = {
+        type: "FeatureCollection",
+        features: (raw2.features ?? []).filter(
+          (f) => f.geometry && (f.geometry.type === "Polygon" || f.geometry.type === "MultiPolygon"),
+        ),
+      };
+      const parsed = BorderSnapshotSchema.parse(polygonsOnly);
+      const features = parsed.features.filter((f) => f.geometry.coordinates);
       const json = JSON.stringify({ type: "FeatureCollection", features });
       await writeFile(target, json);
       done.push(year);
