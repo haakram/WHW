@@ -62,3 +62,6 @@ public/data/borders/
 
 # local Python virtualenvs (tooling, never part of the app)
 .venv*/
+
+# Files from other tasks the owner runs in this folder (not part of the app) — never commit
+scripts/jobs/
