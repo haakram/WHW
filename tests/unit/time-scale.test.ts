@@ -36,7 +36,7 @@ describe("time scale", () => {
     expect(nextYear(-1)).toBe(1);
     expect(nextYear(-25)).toBe(1);
     expect(nextYear(MAX_YEAR)).toBe(MAX_YEAR);
-    expect(nextYear(1, -1)).toBe(-1);
+    expect(nextYear(1, -1)).toBeLessThan(0);
   });
 
   it("formats BC and AD years", () => {

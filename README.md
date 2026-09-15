@@ -1,126 +1,184 @@
-# World History Web
+<div align="center">
 
-An interactive 3D globe of world history, from 3000 BC to today. Drag the timeline and watch borders shift between historical snapshots; click any country or event for a live Wikipedia summary and picture; press play to run history forward with pulsing events and animated battle fronts; or let a guided story tour fly you from stop to stop.
+# 🌍 World History Web
 
-Built with **Next.js 16**, **React 19** and **react-globe.gl** (three.js). No backend, no database, no API keys: one tiny same-origin proxy route talks to Wikipedia, everything else is static data and client-side rendering.
+**An interactive 3D atlas of world history, 3000 BC to today, in the browser.**
 
-![World History Web — the globe in 1950, borders of 1945](.github/screenshot.png)
+Drag the timeline and watch borders shift, empires rise and fall, and battles animate across a globe.
+Click any pin for the story, with live text and pictures from Wikipedia and Wikimedia Commons.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/haakram/WHW&env=WIKI_USER_AGENT&envDescription=A%20descriptive%20User-Agent%20for%20Wikimedia%20requests%2C%20e.g.%20%22MyApp%2F1.0%20(contact%40example.com)%22)
+[**Live demo**](https://whw.vercel.app) · [Quick start](#quick-start) · [Use the globe in your own app](#use-the-globe-in-your-own-app) · [Add history](#add-history) · [Data & licenses](#data--licenses)
 
-## Features
+[![CI](https://github.com/haakram/WHW/actions/workflows/ci.yml/badge.svg)](https://github.com/haakram/WHW/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-2f6f5e.svg)](LICENSE)
+[![Next.js 16](https://img.shields.io/badge/Next.js-16-1c1913.svg)](https://nextjs.org)
+[![react-globe.gl](https://img.shields.io/badge/react--globe.gl-2.38-8f1d2c.svg)](https://github.com/vasturiano/react-globe.gl)
 
-- **Non-linear timeline** from 3000 BC to 2026: antiquity moves in centuries, the last five hundred years in single years. Era bands sit under the slider.
-- **Historical borders** that change with the year: thirteen snapshots (500 BC, 1 BC, AD 400, 800, 1279, 1492, 1650, 1815, 1914, 1920, 1945, 1994, 2010), each polity keeping a stable parchment tone across snapshots.
-- **A pin for every country** with its founding year, capital, flag and population, generated from Wikidata, plus a live "History of …" summary when clicked.
-- **Curated events** with importance, category, coordinates and sources; clicking one opens curated text, the live Wikipedia extract and thumbnail, and a Wikimedia Commons video where one exists.
-- **Play mode** with 1×/2×/4× speed, ring pulses as events happen, animated arcs between the belligerents of wars in progress, and an optional "Follow" camera.
-- **Story tours** that step through events with narration and a cinematic camera.
-- **Discovery badges** stored in the browser: no accounts, no tracking.
-- **Museum-archive look**: parchment, ink, serif type.
+</div>
+
+![World History Web: the globe with the borders of 1945](docs/screenshot.png)
+
+## What it does
+
+- **A non-linear timeline** from 3000 BC to 2026. Antiquity moves in 50-year steps, the last 500 years move one year at a time, so the same slider covers Hammurabi and yesterday.
+- **Historical borders.** Thirteen snapshots (500 BC, 1 BC, 400, 800, 1279, 1492, 1650, 1815, 1914, 1920, 1945, 1994, 2010) recolour the globe as you scrub. Slide from 1914 to 1920 and the Ottoman Empire becomes Turkey.
+- **Every country, pinned.** All current sovereign states come from one Wikidata query: founding year, capital, flag and population. A country's pin only appears once it exists.
+- **Curated events with live context.** Hand-written, sourced summaries for the world-shaping moments, plus the live Wikipedia extract and lead image for each one, fetched through a small same-origin proxy. Public-domain newsreels from Wikimedia Commons play inline where they exist.
+- **Play mode.** Press play (or the space bar) and history runs forward: pins pulse as events happen, wars draw animated arcs between the belligerents' capitals, borders swap snapshot by snapshot. The camera stays where you left it unless you switch on *Follow*.
+- **Story tours.** Guided journeys (WWII, WWI, Rome, the Mongols, the Age of Exploration, the Cold War) fly the camera stop to stop with narration.
+- **Discovery badges.** The app remembers, in your browser only, which events, countries and tours you have explored.
+
+No accounts, no database, no API keys. One optional environment variable.
 
 ## Quick start
-
-Requires Node 20+ and [pnpm](https://pnpm.io).
 
 ```bash
 git clone https://github.com/haakram/WHW.git
 cd WHW
 pnpm install
-cp .env.example .env.local     # set WIKI_USER_AGENT to something that identifies you
-pnpm data:all                  # countries from Wikidata, textures, video URLs, historical borders (~1 min)
-pnpm dev                       # http://localhost:3000
+pnpm dev          # http://localhost:3000
 ```
 
-Other commands: `pnpm typecheck`, `pnpm lint:strict`, `pnpm test`, `pnpm test:e2e`, `pnpm build`.
+Requirements: Node.js 20+ (24 recommended) and pnpm 10. The generated data (countries, border snapshots, globe textures) is committed, so the app works offline apart from the live Wikipedia panel.
 
-Deploying on Vercel needs nothing special: `pnpm build` fetches the historical borders first, so a fresh clone builds on its own. Set `WIKI_USER_AGENT` in the project settings; Wikimedia refuses requests without a descriptive User-Agent.
-
-## How it works
-
-```
-src/
-├── app/
-│   ├── page.tsx                      # renders the client app
-│   ├── api/wiki/summary/route.ts     # the only server code: Wikipedia summary proxy
-│   └── globals.css                   # design tokens + layout
-├── components/
-│   ├── globe/                        # react-globe.gl canvas, its props contract, size hook
-│   └── app/world-history-app.tsx     # timeline, panels, legend, badges, tour player
-├── lib/
-│   ├── data/schemas.ts               # Zod contracts for every JSON file and the API response
-│   ├── data/loaders.ts               # parse curated JSON once, fetch generated data lazily
-│   ├── domain/                       # pure functions: time scale, eras, borders, battles, badges
-│   └── store/history-store.tsx       # one reducer: year, play loop, selection, tours, discovery
-└── data/                             # curated events.json, tours.json, eras.json
-scripts/                              # data generators (Wikidata, historical-basemaps, Commons)
-public/data/                          # generated: countries.json, borders/ (fetched at build)
+```bash
+pnpm data:all     # regenerate countries.json, the border snapshots and textures (network needed)
+pnpm test         # unit tests: time scale, ring rewinding, data contracts
+pnpm lint:strict  # eslint, 0 warnings allowed
+pnpm typecheck    # next typegen + tsc --noEmit
+pnpm build        # production build
 ```
 
-Data flow: the slider sets a year → pure domain functions pick the border snapshot, the visible events, the battle arcs and the pulses → the globe re-renders → a click sets the selection → the panel fetches `/api/wiki/summary?title=…` → the proxy validates the title, calls Wikipedia with a User-Agent and an 8-second timeout, and returns only whitelisted fields.
+### Deploy
 
-## Reusing the globe in your own project
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/haakram/WHW)
 
-The globe is deliberately decoupled from the history app. To drop it into another system, copy these files:
+Any host that runs Next.js works. Set `WIKI_USER_AGENT` to something that identifies *your* deployment (Wikimedia asks for a contact in the User-Agent and returns 403 without one):
 
-- `src/components/globe/globe-types.ts` — the props contract (`GlobeCanvasProps`: polygons, pins, arcs, rings, camera target, click handlers).
-- `src/components/globe/globe-canvas.tsx` — the react-globe.gl wrapper.
-- `src/components/globe/globe-loader.tsx` — client-only loading through `next/dynamic` (or use your framework's equivalent; the canvas must never render on the server).
-- `src/components/globe/use-container-size.ts` — measures the container; react-globe.gl otherwise sizes itself to the window.
-- `src/lib/domain/rewind.ts` — **read the comment**: three-globe triangulates polygon caps with d3-geo, whose ring winding is the reverse of RFC 7946 GeoJSON. Counter-clockwise exterior rings render as "everything except this polygon". Run every GeoJSON feature through `rewindFeature` before handing it to the globe.
-- `src/lib/domain/palette.ts` — stable per-polity colors (a hash of the polity name), category colors, arc gradient.
+```
+WIKI_USER_AGENT="MyHistoryApp/1.0 (https://example.com; me@example.com)"
+```
 
-Minimal usage:
+## Use the globe in your own app
+
+The globe is one self-contained client component with a plain props contract. Copy `src/components/globe/` (four files, no app-specific imports beyond the `BorderFeature` type) and render it inside a sized container:
 
 ```tsx
-import GlobeLoader from "@/components/globe/globe-loader";
+import GlobeLoader from "@/components/globe/globe-loader";   // next/dynamic, ssr: false
 
-<GlobeLoader
-  polygons={features}                       // GeoJSON Feature[] (Polygon / MultiPolygon), rewound
-  polygonColor={(f) => "#d8c49b"}
-  pins={[{ id: "rome", kind: "event", lat: 41.9, lng: 12.5, color: "#8f1d2c", radius: 0.5, label: "Rome", importance: 5 }]}
-  arcs={[]}
-  rings={[]}
-  cameraTarget={{ lat: 41.9, lng: 12.5, altitude: 1.2 }}   // change the object to fly there
-  autoRotate
-  onPinClick={(pin) => console.log(pin.id)}
-  onPolygonClick={(feature) => console.log(feature.properties.NAME)}
-/>
+<div style={{ width: "100%", height: "100vh" }}>
+  <GlobeLoader
+    polygons={features}                      // GeoJSON Features (Polygon / MultiPolygon)
+    polygonColor={(f) => colorFor(f)}        // any CSS colour per polygon
+    pins={[{ id: "rome", kind: "event", lat: 41.9, lng: 12.5, color: "#8f1d2c", radius: 0.5, label: "Rome", importance: 5 }]}
+    arcs={[{ id: "a", startLat: 52.5, startLng: 13.4, endLat: 51.5, endLng: -0.1, color: ["#8f1d2c", "#d4a73a"] }]}
+    rings={[{ id: "r", lat: 41.9, lng: 12.5, color: "#8f1d2c", maxRadius: 6 }]}
+    cameraTarget={{ lat: 41.9, lng: 12.5, altitude: 1.2 }}   // change the object to fly there
+    autoRotate
+    onPinClick={(pin) => console.log(pin.id)}
+    onPolygonClick={(feature) => console.log(feature.properties.NAME)}
+  />
+</div>
 ```
 
-Things that will bite you (all handled in this repo):
+The full contract is in [`globe-types.ts`](src/components/globe/globe-types.ts). Pieces worth lifting on their own:
 
-1. `pointsMerge` must stay `false`, or point click and hover handlers stop working.
-2. Pass explicit `width`/`height`; the defaults are the window size.
-3. Ring winding, as above. Mapshaper and most GIS tools emit counter-clockwise exteriors.
-4. Keep `polygonCapCurvatureResolution` around 4–5 degrees; large values give visible facets.
-5. Textures come from `three-globe`'s MIT-licensed examples, copied into `public/textures/` so the page never loads from a CDN (the Content Security Policy only allows Wikimedia hosts for images and media).
+| Piece | What it gives you |
+|---|---|
+| [`src/lib/domain/rewind.ts`](src/lib/domain/rewind.ts) | **The gotcha that costs everyone an afternoon.** three-globe triangulates caps with d3-geo, whose spherical convention is the reverse of RFC 7946. A counter-clockwise exterior ring is read as "the whole sphere except this polygon", so every cap covers the globe. Rewind before you render. |
+| [`src/lib/domain/time-scale.ts`](src/lib/domain/time-scale.ts) | Piecewise-linear slider ↔ year mapping with per-era play steps and no year 0. Pure, unit-tested. |
+| [`src/app/api/wiki/summary/route.ts`](src/app/api/wiki/summary/route.ts) | A safe proxy for the Wikipedia REST summary API: Zod on the title, fixed upstream host, User-Agent, 8 s timeout, whitelisted response fields, thumbnail host check, cached. |
+| [`scripts/fetch-borders.ts`](scripts/fetch-borders.ts) | Downloads historical-basemaps snapshots and simplifies them with mapshaper so they render without a hitch. |
+| [`scripts/fetch-countries.ts`](scripts/fetch-countries.ts) | One SPARQL query for every sovereign state with coordinates, flag, capital, founding date and population. |
 
-## Data and licenses
+Things we learned the hard way, so you don't have to:
 
-| Source | Used for | License |
-|---|---|---|
-| [Wikidata](https://www.wikidata.org) (SPARQL, one query at setup) | every country's founding year, capital, coordinates, flag, population | CC0 |
-| [Wikipedia](https://en.wikipedia.org) REST summary (live, through the proxy) | summaries and thumbnails in the panels | text CC BY-SA 4.0; images per file |
-| [Wikimedia Commons](https://commons.wikimedia.org) | event videos | per file, shown under the player |
-| [aourednik/historical-basemaps](https://github.com/aourednik/historical-basemaps) | historical border snapshots | GPL-3.0. Fetched and simplified at build time by `scripts/fetch-borders.ts`; not redistributed in this repository. The author notes the borders are approximate and a work in progress. |
-| [three-globe](https://github.com/vasturiano/three-globe) example textures | globe surface and bump map | MIT |
+- Pass explicit `width`/`height` to react-globe.gl; by default it sizes to the window and overlaps your panels.
+- `pointsMerge: true` makes points faster but silently disables `onPointClick`.
+- The globe must be loaded with `next/dynamic` and `ssr: false` from a client component; WebGL does not exist on the server.
+- Wikidata's SPARQL endpoint crashes on `GROUP BY` / `SAMPLE` for this query; dedupe in code. Coordinates come back as WKT `Point(lng lat)`, longitude first.
+- Wikimedia thumbnails may be served from `thumb.wikimedia.org`, not only `upload.wikimedia.org`; allow both in your CSP.
 
-The curated events in `src/data/events.json` are written for this project and cite at least one source each. Corrections are welcome: see [CONTRIBUTING.md](CONTRIBUTING.md).
+## Add history
+
+Events live in [`src/data/events.json`](src/data/events.json) and are validated by the Zod contracts in [`schemas.ts`](src/lib/data/schemas.ts) at load time, so a bad row fails loudly instead of rendering as an empty pin.
+
+```json
+{
+  "id": "fall-of-constantinople",
+  "title": "Fall of Constantinople",
+  "year": 1453,
+  "lat": 41.01,
+  "lng": 28.98,
+  "countryIso": "TR",
+  "category": "war",
+  "importance": 5,
+  "summary": "After a 53-day siege, Ottoman forces under Mehmed II breached the Theodosian Walls on 29 May 1453 and took the Byzantine capital, ending the Eastern Roman Empire.",
+  "wikipediaTitle": "Fall of Constantinople",
+  "belligerents": [
+    { "name": "Ottoman Empire", "lat": 40.18, "lng": 29.06, "side": "a" },
+    { "name": "Byzantine Empire", "lat": 41.01, "lng": 28.98, "side": "b" }
+  ],
+  "sources": ["https://en.wikipedia.org/wiki/Fall_of_Constantinople"]
+}
+```
+
+- Years are integers, negative for BC, and there is no year 0.
+- `importance` (1–5) drives pin size, how long an event stays visible after it happens, and which event the *Follow* toggle flies to.
+- `belligerents` with two sides make a war draw arcs while the year is inside its span.
+- `commonsVideo` takes a Wikimedia Commons file title; `pnpm data:videos` resolves it to a playable URL.
+- Tours in [`tours.json`](src/data/tours.json) are ordered lists of event ids with a line of narration each.
+
+Run `pnpm exec tsx scripts/validate-data.ts` after editing; it checks every field and every tour reference.
+
+## Architecture
+
+```
+src/app/                  layout, page, global styles, the single API route
+src/components/globe/     GlobeCanvas (react-globe.gl), loader, props contract, size hook
+src/components/app/       timeline, panels, tour player, legend, badges
+src/lib/domain/           pure functions: time scale, eras, snapshot choice, palette, visibility, battles, discovery, rewind
+src/lib/data/             Zod schemas, loaders, generated-data paths
+src/lib/store/            one reducer + context: year, playing, speed, follow, selection, tour
+src/lib/security/         Content-Security-Policy and security headers
+src/data/                 curated events, tours, eras (JSON)
+public/data/              generated: countries.json, border snapshots (see LICENSE.md there)
+scripts/                  data generators and the validator
+tests/unit/               vitest
+```
+
+Rendering is entirely client-side; the only server code is the Wikipedia proxy. State is one reducer. Every JSON file, curated or generated, is parsed through a Zod schema.
 
 ## Security
 
-- Strict Content Security Policy: scripts, styles, fonts and XHR are same-origin only; images and media may come from Wikimedia hosts and nowhere else. No third-party scripts, iframes or trackers.
-- The proxy route validates the title with Zod, calls a fixed upstream host with a descriptive User-Agent and a timeout, returns only whitelisted fields, and checks the thumbnail host against the allowlist. No user-supplied URL is ever fetched.
-- Generated GeoJSON and JSON are parsed through Zod schemas as data, never executed.
-- No secrets: `.env.example` documents the two optional settings.
+- Strict Content-Security-Policy: scripts, styles, fonts and XHR are same-origin only; images and media may come from Wikimedia hosts and nowhere else. No third-party scripts or iframes.
+- The proxy route only ever calls `en.wikipedia.org`, with a fixed path, a validated title, a timeout, and a whitelisted response shape. No user-supplied URL is ever fetched.
+- Generated GeoJSON and JSON are data, never code: parsed through schemas, tooltips are escaped, nothing is rendered as HTML.
+- No secrets exist in this project. Discovery progress lives in `localStorage` only.
+
+## Data & licenses
+
+| Data | Source | License |
+|---|---|---|
+| Historical borders (`public/data/borders/`) | [aourednik/historical-basemaps](https://github.com/aourednik/historical-basemaps), simplified | **GPL-3.0** (data files only, see [notice](public/data/borders/LICENSE.md)) |
+| Countries (`public/data/countries.json`) | [Wikidata](https://www.wikidata.org) | CC0 |
+| Globe textures (`public/textures/`) | [three-globe](https://github.com/vasturiano/three-globe) examples | MIT |
+| Wikipedia summaries and images | fetched live | CC BY-SA 4.0 (text); images carry their own licenses, credited in the panel |
+| Commons videos | [Wikimedia Commons](https://commons.wikimedia.org) | per file, credited in the player |
+| Curated events and tours (`src/data/`) | this repository | MIT |
+
+The application code is MIT-licensed. Historical boundaries are approximate and disputed; treat them as an illustration, not a reference.
 
 ## Roadmap
 
-- More curated events per country (the current set is world-shaping plus regional highlights).
-- More border snapshots, once the visual hitch of larger polygon swaps is measured.
-- A flat-map projection toggle and shareable URLs (year, camera, selection).
+- Deeper coverage: 5–15 curated events for every country.
+- ⌘K search and shareable deep links (year, camera and selection in the URL).
+- Layers: trade routes, migrations, day/night terminator.
+- Compare two years side by side.
+- Mobile layout.
+
+Contributions are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md). Adding well-sourced events is the most valuable thing you can do.
 
 ## License
 
-MIT. See [LICENSE](LICENSE). Data sources carry their own licenses as listed above.
+[MIT](LICENSE) for the code. Data files carry the licenses listed above.

@@ -1,34 +1,24 @@
 # Contributing
 
-Thanks for helping. This is a small, dependency-light project, so contributions are easy to make and easy to review.
+Thanks for helping. The most valuable contribution is **well-sourced history**: events that are accurate, dated, located to the city, and written in your own words.
 
-## Set up
+## Adding or fixing events
+
+1. Edit `src/data/events.json` (see the field guide in the README, and the contracts in `src/lib/data/schemas.ts`).
+2. Give every event at least one source URL and the exact English Wikipedia article title.
+3. Run `pnpm exec tsx scripts/validate-data.ts` until it prints `OK`.
+4. Open a pull request. Describe what you added and where it came from.
+
+## Code changes
 
 ```bash
 pnpm install
-pnpm data:all      # countries (Wikidata), textures, video URLs, historical borders
-pnpm dev           # http://localhost:3000
+pnpm dev
+pnpm lint:strict && pnpm typecheck && pnpm test && pnpm build
 ```
 
-Before opening a pull request:
+All four must pass; CI runs the same commands. Keep `src/lib/domain/` pure (no React, Next or three.js imports), keep components presentation-only, and never fetch a user-supplied URL from the server.
 
-```bash
-pnpm typecheck && pnpm lint:strict && pnpm test && pnpm build
-```
+## Data licensing
 
-## Adding or fixing history content
-
-All curated content lives in `src/data/` and is validated against the Zod contracts in `src/lib/data/schemas.ts`:
-
-- `events.json` — one object per event. Years are integers, **negative for BC, there is no year 0**. Every event needs a real `wikipediaTitle` (exact English Wikipedia article title), at least one `sources` URL, and a summary written in your own words.
-- `tours.json` — ordered stops that reference event ids.
-- `eras.json` — the bands under the timeline.
-
-Run `pnpm exec tsx scripts/validate-data.ts` and make sure it prints `OK`. Videos must be Wikimedia Commons files with a free license; run `pnpm data:videos` to resolve the playable URL.
-
-## Ground rules
-
-- No third-party scripts, embeds or trackers. The Content Security Policy in `src/lib/security/headers.ts` is part of the product.
-- The only server code is the Wikipedia proxy route. Everything else is static or client-side.
-- Colors live in `src/app/globals.css` (UI) and `src/lib/domain/palette.ts` (WebGL, which cannot read CSS variables).
-- Keep `src/lib/domain/*` pure: no React, no Next.js, no DOM.
+Border snapshots are derived from a GPL-3.0 dataset and keep that license; everything else you contribute is MIT. Don't add data whose license you can't name.
