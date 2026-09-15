@@ -103,8 +103,8 @@ export default function GlobeCanvas(props: GlobeCanvasProps) {
           arcEndLat="endLat"
           arcEndLng="endLng"
           arcColor="color"
-          arcAltitudeAutoScale={0.4}
-          arcStroke={0.55}
+          arcAltitudeAutoScale={0.3}
+          arcStroke={0.9}
           arcDashLength={0.35}
           arcDashGap={0.18}
           arcDashAnimateTime={1600}

@@ -44,7 +44,7 @@ function Shell() {
     const evPins = visible.map<GlobePin>((e) => ({
       id: e.id, kind: "event", lat: e.lat, lng: e.lng,
       color: e.id === selectedId ? "#d4a73a" : CATEGORY_COLORS[e.category],
-      radius: (e.id === selectedId ? 0.5 : 0.2) + e.importance * 0.08,
+      radius: (e.id === selectedId ? 0.55 : 0.28) + e.importance * 0.1,
       label: `${e.title} · ${formatYear(e.year)}`, importance: e.importance,
     }));
     const cPins = state.countries
