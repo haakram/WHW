@@ -7,8 +7,9 @@
 Drag the timeline and watch borders shift, empires rise and fall, and battles animate across a globe.
 Click any pin for the story, with live text and pictures from Wikipedia and Wikimedia Commons.
 
-[**Live demo**](https://whw-ten.vercel.app) · [Quick start](#quick-start) · [Use the globe in your own app](#use-the-globe-in-your-own-app) · [Add history](#add-history) · [Data & licenses](#data--licenses)
+[**Live demo**](https://whw-ten.vercel.app) · [Watch the talk](#watch-the-talk) · [Quick start](#quick-start) · [Use the globe in your own app](#use-the-globe-in-your-own-app) · [Add history](#add-history) · [Data & licenses](#data--licenses)
 
+[![Built at Oslo | Claude Build Day, 14 Sep 2026](https://img.shields.io/badge/built%20at-Oslo%20%7C%20Claude%20Build%20Day%20%C2%B7%2014%20Sep%202026-d97757.svg)](#built-at-oslo--claude-build-day)
 [![CI](https://github.com/haakram/WHW/actions/workflows/ci.yml/badge.svg)](https://github.com/haakram/WHW/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-2f6f5e.svg)](LICENSE)
 [![Next.js 16](https://img.shields.io/badge/Next.js-16-1c1913.svg)](https://nextjs.org)
@@ -21,6 +22,36 @@ Click any pin for the story, with live text and pictures from Wikipedia and Wiki
 During a war, arcs run between the belligerents while the year is inside its span. Here, 1942:
 
 ![Battle arcs over Europe in 1942, borders of 1920](.github/screenshot-1942.png)
+
+## Try it in 30 seconds
+
+No install needed: open the [**live demo**](https://whw-ten.vercel.app).
+
+1. **Drag the timeline** at the bottom. The borders on the globe change with the year.
+2. **Click a pin** to read what happened there, with text and pictures from Wikipedia.
+3. **Press play** (or the space bar) and watch history run forward. Wars draw arcs between the two sides.
+4. **Start a story tour**, for example World War II, and the camera flies you from event to event.
+
+## Built at Oslo | Claude Build Day
+
+I built World History Web at **Oslo | Claude Build Day**, at Mesh Oslo on **14 September 2026**, working
+with Claude, and presented it on stage to the people there.
+
+**Why I built it:** the history we learn at school is mostly about Europe. I wanted one place where you
+can scroll through the whole world's timeline and see what was happening everywhere else at the same time.
+
+### Watch the talk
+
+<a href="media/talk-oslo-claude-build-day.mp4"><img src="media/talk-poster.jpg" alt="Hamad on stage at Mesh Oslo presenting World History Web on a big screen. Click to play the video." width="360"></a>
+
+**[▶ Watch the 1.5-minute demo](media/talk-oslo-claude-build-day.mp4)** (filmed from the audience; GitHub plays it in the file view). In it I show:
+
+- scrolling through time and clicking around the globe to see the history of different places;
+- playing history forward and watching the borders change, for example Sweden–Norway;
+- clicking an event to see what happened there;
+- the war arcs, the dots where history happened, and the story tours, for example World War II.
+
+Built by Hamad ([@haakram](https://github.com/haakram)).
 
 ## What it does
 
